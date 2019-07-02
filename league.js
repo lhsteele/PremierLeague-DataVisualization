@@ -17,7 +17,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_sea
   var simulation = d3.forceSimulation()
     .force("x", d3.forceX(width / 2).strength(0.05))
     .force("y", d3.forceY(height / 2).strength(0.05))
-    .force("collide", d3.forceCollide(function(d) { return radiusScale(d.FTHG ) + 1}))
+    .force("collide", d3.forceCollide(function(d) { return radiusScale(d.FTHG ) + 3}))
 
   simulation.nodes(data)
     .on("tick", ticked)
@@ -28,12 +28,12 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_sea
       .attr("cy", function (d) { return d.y })
   }
 
-  var toolTip = d3.select("#league-data-area")
+  var toolTip = d3.select("body")
     .append("div")
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
-    .style("border-radius", 5)
+    .style("border-radius", 10)
     .style("padding", "10px")
     .style("position", "absolute")
     .style("z-index", "10")
@@ -44,19 +44,20 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_sea
       .transition()
       .duration(200)
     toolTip
+      .html(d.HomeTeam + ":" + " " +  d.FTHG)
+    toolTip
       .style("opacity", 1)
-      .style("left", (d3.mouse(this)[0]+30) + "px")
-      .style("top", (d3.mouse(this)[1]+30) + "px")
-    toolTip.append("text")
-      .text("Home team:" + d.HomeTeam)
-      .text("Goals scored:" + d.FTHG)
+      .style("left", (d3.mouse(this)[0]) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+      .style("visibility", "visible")
+      .style("display", "inline")
     console.log(d.HomeTeam)
   }
 
   var moveData = function(d) {
     toolTip
-      .style("left", (d3.mouse(this)[0] + 30) + "px")
-      .style("top", (d3.mouse(this)[1] + 30) + "px")
+      .style("left", (d3.mouse(this)[0]) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
   }
 
   var hideData = function(d) {
