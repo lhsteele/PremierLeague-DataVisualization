@@ -1,4 +1,4 @@
-d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/liverpool_results.json").then(function (data) {
+d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_season.json").then(function (data) {
   var margin = { top: 50, right: 50, bottom: 50, left: 50 },
     width = 500 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
@@ -16,17 +16,10 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/liverpool_re
   var x = d3.scaleLinear()
     .domain([0, 6])
     .range([0, width])
-  // svg
-  //   .append("g")
-  //   .attr("transform", "translate(0," + height + ")")
-  //   .call(d3.axisBottom(x));
 
   var y = d3.scaleLinear()
     .domain([0, 20])
     .range([height, 0])
-  // svg
-  //   .append("g")
-  //   .call(d3.axisLeft(y))
 
 
   svg
@@ -37,7 +30,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/liverpool_re
     .attr("cx", function (d) { return x(d.FTHG) })
     .attr("cy", function (d) { return y(d.FTHG) })
     .attr("r", function (d) { return d.HST })
-    .attr("fill", function(d) {
+    .attr("fill", function (d) {
       if (d.FTR === "H") {
         return "red"
       } else if (d.FTR === "A") {
