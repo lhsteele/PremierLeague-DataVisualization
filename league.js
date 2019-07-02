@@ -10,19 +10,22 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_sea
     .attr("height", height)
     .append("g")
     .attr("transform", "translate(0,0)");
+    // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
+  var radiusScale = d3.scaleSqrt().domain([1, 5]).range([10, 50])
     
   var simulation = d3.forceSimulation()
     .force("x", d3.forceX(width / 2).strength(0.05))
     .force("y", d3.forceY(height / 2).strength(0.05))
-    .force("collide", d3.forceCollide(20))
+    .force("collide", d3.forceCollide(function(d) { return radiusScale(d.FTHG )}))
 
     
   var circles = svg.selectAll("clubs")
     .data(data)
     .enter()
     .append("circle")
-    .attr("r", function (d) { return (d.FTHG * 10) })
+    .attr("r", function (d) { return radiusScale(d.FTHG) })
+    .on("mouseover", function(d) { console.log(d.HomeTeam )})
     .attr("fill", function (d) {
       switch (d.HomeTeam) {
         case "Arsenal": 
