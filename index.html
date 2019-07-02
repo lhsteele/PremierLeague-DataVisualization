@@ -3,18 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
-  <div>Liverpool</div>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script type="text/javascript" src="liverpool.js"></script>
   <script type="text/javascript" src="league.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Inder|Niramit&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div id="liverpool-parent-div" width=client.width height=500>
-    <svg id="liverpool-data-area" width=100% height=500></svg>
+<body class="main">
+  <div class="title-group">
+    <div class="title">English Premier League</div>
+    <div class="title2">2017/2018 season</div>
   </div>
-  <div id="league-parent-div" width=client.width height=1000>
-  <div id="league-parent-div">
-    <svg id="league-data-area" width=100% height=1000></svg>
+  <div class="league-parent-div" id="league-parent-div" width=client.width height=1000>
+    <div class="chart-title">Goals scored at home</div>
+    <svg class="league-data-area" id="league-data-area" width=100% height=1000></svg>
+  </div>
+  <div class="liverpool-parent-div" id="liverpool-parent-div" width=client.width height=500>
+    <svg class="liverpool-data-area" id="liverpool-data-area" width=100% height=500></svg>
   </div>
 </body>

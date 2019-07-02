@@ -1,0 +1,45 @@
+* {
+  font-family: Inder;
+  color: #525252;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.title2 {
+  font-size: 20px;
+}
+
+.chart-title{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.league-parent-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.league-data-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5% 20%;
+  text-align: center;
+  overflow: overlay;
+}
