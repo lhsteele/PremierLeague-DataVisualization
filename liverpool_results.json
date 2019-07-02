@@ -1,1952 +1,1952 @@
-{
-   "01/09/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 6,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "26/09/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 6,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 14,
-      "HY": 1,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "06/11/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 6,
-      "FTR": "H",
-      "HS": 28,
-      "HST": 17,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "15/03/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "22/03/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "23/04/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "19/01/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 10,
-      "HY": 1,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "17/02/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 33,
-      "HST": 18,
-      "HY": 0,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "04/12/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 28,
-      "HST": 12,
-      "HY": 3,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "08/02/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 12,
-      "HY": 1,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "24/09/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 32,
-      "HST": 12,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "26/12/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "17/03/18": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 5,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 10,
-      "HY": 1,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "12/11/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "23/12/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 6,
-      "HY": 2,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "04/04/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 24,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "09/12/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 32,
-      "HST": 19,
-      "HY": 1,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "24/02/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 8,
-      "HST": 4,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "31/03/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "02/12/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 14,
-      "HY": 0,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "22/12/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "05/03/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "11/04/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 12,
-      "HY": 2,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "19/08/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 13,
-      "HY": 0,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "12/09/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 27,
-      "HST": 16,
-      "HY": 0,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "15/03/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 12,
-      "HY": 0,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "08/05/12": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 13,
-      "HY": 2,
-      "HR": 0,
-      "Season": "11-12"
-   },
-   "22/12/12": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 12,
-      "HY": 1,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "26/10/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "09/11/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 32,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "07/12/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 32,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "28/01/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "23/02/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 10,
-      "HY": 1,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "30/03/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 5,
-      "HY": 0,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "29/12/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "10/04/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 6,
-      "HY": 0,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "20/04/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 37,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "10/09/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "27/12/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 6,
-      "HY": 0,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "27/08/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 10,
-      "HY": 2,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "14/01/18": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 7,
-      "HY": 2,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "24/02/18": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 12,
-      "HY": 0,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "13/05/18": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 4,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "06/09/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "09/09/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 8,
-      "HY": 3,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "29/10/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "02/12/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 3,
-      "HY": 1,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "03/02/01": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "22/04/01": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 8,
-      "HY": 1,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "05/05/01": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 5,
-      "HY": 0,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "24/08/2002": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "23/03/2003": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "25/10/03": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "30/11/03": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 7,
-      "HY": 2,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "26/12/03": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "17/03/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 13,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "11/09/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "25/09/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 12,
-      "HY": 1,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "13/11/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 5,
-      "HY": 1,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "19/12/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 5,
-      "HY": 0,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "05/02/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "19/11/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "03/12/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 12,
-      "HY": 1,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "25/03/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 10,
-      "HY": 3,
-      "HR": 1,
-      "Season": "05-06"
-   },
-   "29/04/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "23/09/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 6,
-      "HY": 1,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "28/10/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 6,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "01/01/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "02/02/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "23/02/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 8,
-      "HY": 2,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "08/03/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "13/04/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 9,
-      "HY": 1,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "18/10/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "08/11/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 10,
-      "HY": 2,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "26/12/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 8,
-      "HY": 1,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "03/05/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 25,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "24/05/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "28/03/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 25,
-      "HST": 16,
-      "HY": 0,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "19/04/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "20/11/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "06/12/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "06/03/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 10,
-      "HY": 2,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "11/04/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "01/05/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 9,
-      "HST": 5,
-      "HY": 1,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "27/08/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "11-12"
-   },
-   "30/12/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "11-12"
-   },
-   "13/03/12": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 10,
-      "HY": 1,
-      "HR": 0,
-      "Season": "11-12"
-   },
-   "17/11/12": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "02/01/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 27,
-      "HST": 16,
-      "HY": 0,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "10/03/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 4,
-      "HY": 1,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "05/10/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 7,
-      "HY": 2,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "21/12/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 27,
-      "HST": 7,
-      "HY": 2,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "13/04/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 4,
-      "HY": 1,
-      "HR": 1,
-      "Season": "13-14"
-   },
-   "10/02/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 7,
-      "HY": 3,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "26/09/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 12,
-      "HY": 0,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "02/03/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "04/03/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "01/04/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 6,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "21/05/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 25,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "28/10/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "18/11/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 8,
-      "HY": 1,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "14/04/18": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 3,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "01/01/01": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "31/03/01": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 6,
-      "HY": 1,
-      "HR": 1,
-      "Season": "00-01"
-   },
-   "21/09/2002": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 14,
-      "HY": 2,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "26/10/2002": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 9,
-      "HST": 5,
-      "HY": 2,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "02/11/2002": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "08/03/2003": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 9,
-      "HST": 3,
-      "HY": 0,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "12/04/2003": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "21/04/2003": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "20/09/03": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "11/02/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "02/05/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 8,
-      "HY": 1,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "21/08/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 10,
-      "HY": 1,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "23/10/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "28/11/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "20/03/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 8,
-      "HY": 1,
-      "HR": 1,
-      "Season": "04-05"
-   },
-   "15/05/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "29/10/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 9,
-      "HY": 2,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "10/12/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "26/12/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "26/08/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 8,
-      "HY": 1,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "20/09/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "04/11/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "23/12/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "20/01/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "18/04/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "21/04/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 12,
-      "HY": 2,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "10/11/07": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 12,
-      "HY": 0,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "15/03/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "23/08/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 8,
-      "HY": 2,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "13/09/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "01/02/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 15,
-      "HY": 4,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "03/03/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 12,
-      "HY": 1,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "25/10/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 6,
-      "HY": 2,
-      "HR": 1,
-      "Season": "09-10"
-   },
-   "16/12/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "26/12/09": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "20/01/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 5,
-      "HY": 2,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "30/01/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 6,
-      "HY": 1,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "28/02/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 6,
-      "HY": 1,
-      "HR": 0,
-      "Season": "09-10"
-   },
-   "24/10/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 10,
-      "HY": 2,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "07/11/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 9,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "01/01/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 7,
-      "HY": 2,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "02/02/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 9,
-      "HY": 1,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "24/09/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 6,
-      "HY": 3,
-      "HR": 0,
-      "Season": "11-12"
-   },
-   "01/01/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 6,
-      "HY": 1,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "26/03/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "11/05/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 13,
-      "HST": 5,
-      "HY": 1,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "17/08/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 5,
-      "HY": 1,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "04/10/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 7,
-      "HY": 2,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "31/01/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "01/03/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 5,
-      "HY": 1,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "04/03/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "13/04/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 6,
-      "HY": 2,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "02/05/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 25,
-      "HST": 8,
-      "HY": 2,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "08/05/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 5,
-      "HY": 1,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "22/10/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "26/11/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 27,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "11/02/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 9,
-      "HY": 3,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "12/03/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 3,
-      "HY": 2,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "30/12/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 6,
-      "HY": 3,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "03/03/18": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 2,
-      "FTR": "H",
-      "HS": 14,
-      "HST": 3,
-      "HY": 0,
-      "HR": 0,
-      "Season": "17-18"
-   },
-   "19/08/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 10,
-      "HY": 1,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "21/10/00": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 24,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "00-01"
-   },
-   "06/10/2002": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 8,
-      "HY": 0,
-      "HR": 0,
-      "Season": "02-03"
-   },
-   "10/01/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 4,
-      "HY": 3,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "20/03/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 4,
-      "HY": 0,
-      "HR": 0,
-      "Season": "03-04"
-   },
-   "28/12/04": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 11,
-      "HY": 0,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "02/04/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "04-05"
-   },
-   "20/08/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 6,
-      "HY": 2,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "15/10/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 19,
-      "HST": 5,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "31/12/05": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 27,
-      "HST": 13,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "14/01/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 12,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "14/02/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 22,
-      "HST": 9,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "26/02/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 20,
-      "HST": 12,
-      "HY": 0,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "09/04/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 17,
-      "HST": 7,
-      "HY": 1,
-      "HR": 0,
-      "Season": "05-06"
-   },
-   "25/11/06": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 12,
-      "HST": 6,
-      "HY": 2,
-      "HR": 0,
-      "Season": "06-07"
-   },
-   "30/03/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 15,
-      "HST": 9,
-      "HY": 1,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "04/05/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "07-08"
-   },
-   "29/10/08": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 10,
-      "HY": 0,
-      "HR": 0,
-      "Season": "08-09"
-   },
-   "06/02/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 9,
-      "HST": 4,
-      "HY": 3,
-      "HR": 1,
-      "Season": "09-10"
-   },
-   "29/08/10": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "26/01/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 11,
-      "HST": 7,
-      "HY": 0,
-      "HR": 0,
-      "Season": "10-11"
-   },
-   "10/12/11": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 21,
-      "HST": 15,
-      "HY": 2,
-      "HR": 0,
-      "Season": "11-12"
-   },
-   "20/10/12": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "01/12/12": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 24,
-      "HST": 11,
-      "HY": 2,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "19/05/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 27,
-      "HST": 20,
-      "HY": 1,
-      "HR": 0,
-      "Season": "12-13"
-   },
-   "17/08/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 26,
-      "HST": 11,
-      "HY": 1,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "01/09/13": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 5,
-      "HY": 2,
-      "HR": 0,
-      "Season": "13-14"
-   },
-   "29/11/14": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 16,
-      "HST": 3,
-      "HY": 0,
-      "HR": 0,
-      "Season": "14-15"
-   },
-   "17/08/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 18,
-      "HST": 2,
-      "HY": 1,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "29/11/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 10,
-      "HST": 2,
-      "HY": 3,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "26/12/15": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 25,
-      "HST": 4,
-      "HY": 2,
-      "HR": 0,
-      "Season": "15-16"
-   },
-   "31/12/16": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 5,
-      "HST": 1,
-      "HY": 2,
-      "HR": 0,
-      "Season": "16-17"
-   },
-   "19/08/17": {
-      "HomeTeam": "Liverpool",
-      "FTHG": 1,
-      "FTR": "H",
-      "HS": 23,
-      "HST": 13,
-      "HY": 1,
-      "HR": 0,
-      "Season": "17-18"
-   }
-}
+[
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 6,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 6,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 14,
+   "HY": 1,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 6,
+   "FTR": "H",
+   "HS": 28,
+   "HST": 17,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 10,
+   "HY": 1,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 33,
+   "HST": 18,
+   "HY": 0,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 28,
+   "HST": 12,
+   "HY": 3,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 12,
+   "HY": 1,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 32,
+   "HST": 12,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 5,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 10,
+   "HY": 1,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 6,
+   "HY": 2,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 24,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 32,
+   "HST": 19,
+   "HY": 1,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 8,
+   "HST": 4,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 14,
+   "HY": 0,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 12,
+   "HY": 2,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 13,
+   "HY": 0,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 27,
+   "HST": 16,
+   "HY": 0,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 12,
+   "HY": 0,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 13,
+   "HY": 2,
+   "HR": 0,
+   "Season": "11-12"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 12,
+   "HY": 1,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 32,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 32,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 10,
+   "HY": 1,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 5,
+   "HY": 0,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 6,
+   "HY": 0,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 37,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 6,
+   "HY": 0,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 10,
+   "HY": 2,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 7,
+   "HY": 2,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 12,
+   "HY": 0,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 4,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 8,
+   "HY": 3,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 3,
+   "HY": 1,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 8,
+   "HY": 1,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 5,
+   "HY": 0,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 7,
+   "HY": 2,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 13,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 12,
+   "HY": 1,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 5,
+   "HY": 1,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 5,
+   "HY": 0,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 12,
+   "HY": 1,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 10,
+   "HY": 3,
+   "HR": 1,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 6,
+   "HY": 1,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 6,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 8,
+   "HY": 2,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 9,
+   "HY": 1,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 10,
+   "HY": 2,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 8,
+   "HY": 1,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 25,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 25,
+   "HST": 16,
+   "HY": 0,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 10,
+   "HY": 2,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 9,
+   "HST": 5,
+   "HY": 1,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "11-12"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "11-12"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 10,
+   "HY": 1,
+   "HR": 0,
+   "Season": "11-12"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 27,
+   "HST": 16,
+   "HY": 0,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 4,
+   "HY": 1,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 7,
+   "HY": 2,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 27,
+   "HST": 7,
+   "HY": 2,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 4,
+   "HY": 1,
+   "HR": 1,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 7,
+   "HY": 3,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 12,
+   "HY": 0,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 6,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 25,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 8,
+   "HY": 1,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 3,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 6,
+   "HY": 1,
+   "HR": 1,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 14,
+   "HY": 2,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 9,
+   "HST": 5,
+   "HY": 2,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 9,
+   "HST": 3,
+   "HY": 0,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 8,
+   "HY": 1,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 10,
+   "HY": 1,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 8,
+   "HY": 1,
+   "HR": 1,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 9,
+   "HY": 2,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 8,
+   "HY": 1,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 12,
+   "HY": 2,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 12,
+   "HY": 0,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 8,
+   "HY": 2,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 15,
+   "HY": 4,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 12,
+   "HY": 1,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 6,
+   "HY": 2,
+   "HR": 1,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 5,
+   "HY": 2,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 6,
+   "HY": 1,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 6,
+   "HY": 1,
+   "HR": 0,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 10,
+   "HY": 2,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 9,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 7,
+   "HY": 2,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 9,
+   "HY": 1,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 6,
+   "HY": 3,
+   "HR": 0,
+   "Season": "11-12"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 6,
+   "HY": 1,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 13,
+   "HST": 5,
+   "HY": 1,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 5,
+   "HY": 1,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 7,
+   "HY": 2,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 5,
+   "HY": 1,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 6,
+   "HY": 2,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 25,
+   "HST": 8,
+   "HY": 2,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 5,
+   "HY": 1,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 27,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 9,
+   "HY": 3,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 3,
+   "HY": 2,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 6,
+   "HY": 3,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 2,
+   "FTR": "H",
+   "HS": 14,
+   "HST": 3,
+   "HY": 0,
+   "HR": 0,
+   "Season": "17-18"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 10,
+   "HY": 1,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 24,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "00-01"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 8,
+   "HY": 0,
+   "HR": 0,
+   "Season": "02-03"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 4,
+   "HY": 3,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 4,
+   "HY": 0,
+   "HR": 0,
+   "Season": "03-04"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 11,
+   "HY": 0,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "04-05"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 6,
+   "HY": 2,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 19,
+   "HST": 5,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 27,
+   "HST": 13,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 12,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 22,
+   "HST": 9,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 20,
+   "HST": 12,
+   "HY": 0,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 17,
+   "HST": 7,
+   "HY": 1,
+   "HR": 0,
+   "Season": "05-06"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 12,
+   "HST": 6,
+   "HY": 2,
+   "HR": 0,
+   "Season": "06-07"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 15,
+   "HST": 9,
+   "HY": 1,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "07-08"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 10,
+   "HY": 0,
+   "HR": 0,
+   "Season": "08-09"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 9,
+   "HST": 4,
+   "HY": 3,
+   "HR": 1,
+   "Season": "09-10"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 11,
+   "HST": 7,
+   "HY": 0,
+   "HR": 0,
+   "Season": "10-11"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 21,
+   "HST": 15,
+   "HY": 2,
+   "HR": 0,
+   "Season": "11-12"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 24,
+   "HST": 11,
+   "HY": 2,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 27,
+   "HST": 20,
+   "HY": 1,
+   "HR": 0,
+   "Season": "12-13"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 26,
+   "HST": 11,
+   "HY": 1,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 5,
+   "HY": 2,
+   "HR": 0,
+   "Season": "13-14"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 16,
+   "HST": 3,
+   "HY": 0,
+   "HR": 0,
+   "Season": "14-15"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 18,
+   "HST": 2,
+   "HY": 1,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 10,
+   "HST": 2,
+   "HY": 3,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 25,
+   "HST": 4,
+   "HY": 2,
+   "HR": 0,
+   "Season": "15-16"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 5,
+   "HST": 1,
+   "HY": 2,
+   "HR": 0,
+   "Season": "16-17"
+ },
+ {
+   "HomeTeam": "Liverpool",
+   "FTHG": 1,
+   "FTR": "H",
+   "HS": 23,
+   "HST": 13,
+   "HY": 1,
+   "HR": 0,
+   "Season": "17-18"
+ }
+]

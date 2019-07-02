@@ -3,10 +3,74 @@
 
 <script src="https://d3js.org/d3.v4.js"></script>
 
+<div>Testing</div>
 
 <script>
 
-  const dataset = d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_players.json")
+  const dataset = {
+      "01/09/07": {
+        "HomeTeam": "Liverpool",
+        "FTHG": 6,
+        "FTR": "H",
+        "HS": 20,
+        "HST": 10,
+        "HY": 0,
+        "HR": 0,
+        "Season": "07-08"
+      },
+      "26/09/09": {
+        "HomeTeam": "Liverpool",
+        "FTHG": 6,
+        "FTR": "H",
+        "HS": 22,
+        "HST": 14,
+        "HY": 1,
+        "HR": 0,
+        "Season": "09-10"
+      },
+      "06/11/16": {
+        "HomeTeam": "Liverpool",
+        "FTHG": 6,
+        "FTR": "H",
+        "HS": 28,
+        "HST": 17,
+        "HY": 1,
+        "HR": 0,
+        "Season": "16-17"
+      },
+      "15/03/06": {
+        "HomeTeam": "Liverpool",
+        "FTHG": 5,
+        "FTR": "H",
+        "HS": 19,
+        "HST": 10,
+        "HY": 0,
+        "HR": 0,
+        "Season": "05-06"
+      },
+      "22/03/09": {
+        "HomeTeam": "Liverpool",
+        "FTHG": 5,
+        "FTR": "H",
+        "HS": 14,
+        "HST": 7,
+        "HY": 1,
+        "HR": 0,
+        "Season": "08-09"
+      },
+      "23/04/11": {
+        "HomeTeam": "Liverpool",
+        "FTHG": 5,
+        "FTR": "H",
+        "HS": 17,
+        "HST": 13,
+        "HY": 1,
+        "HR": 0,
+        "Season": "10-11"
+      }
+  }
+
+  
 
   var margin = { top: 50, right: 50, bottom: 50, left: 50 },
       width = 800 - margin.left - margin.right,
@@ -17,11 +81,11 @@
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.height + margin.bottom)
       .append("g")
-      .attr("transform"),
-    "translate(" + margin.left + "," + margin.top + ")");
+      .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")")
 
     var x = d3.scaleLinear()
-      .domain([0, 75])
+      .domain([0, 6])
       .range([0, width])
     svg
       .append("g")
@@ -29,19 +93,21 @@
       .call(d3.axisBottom(x));
 
     var y = d3.scaleLinear()
-      .domain([0, 75])
+      .domain([0, 20])
       .range([height, 0])
     svg
       .append("g")
       .call(d3.axisLeft(y))
+
+    console.log(dataset)
 
     svg
       .selectAll("whatever")
       .data(dataset)
       .enter()
       .append("circle")
-      .attr("cx", function (d) { return x(d.market_value) })
-      .attr("cy", function (d) { return y(d.fpl_value) })
+      .attr("cx", function (d) { return x(d.FTHG) })
+      .attr("cy", function (d) { return y(d.HST) })
       .attr("r", 7)
  
 
