@@ -3,29 +3,20 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/liverpool_re
     width = 500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
+
+  var parentDiv = document.getElementById("liverpool-parent-div");
+  
   var svg = d3.select("#liverpool-data-area")
     .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.height + margin.bottom)
-    .append("g")
-    .attr("transform",
-      "translate(" + margin.left + "," + margin.top + ")")
 
 
   var x = d3.scaleLinear()
     .domain([0, 6])
-    .range([0, width])
-  // svg
-  //   .append("g")
-  //   .attr("transform", "translate(0," + height + ")")
-  //   .call(d3.axisBottom(x));
+    .range([-100, width])
 
   var y = d3.scaleLinear()
     .domain([0, 20])
-    .range([height, 0])
-  // svg
-  //   .append("g")
-  //   .call(d3.axisLeft(y))
+    .range([height, 100])
 
 
   svg
@@ -33,9 +24,9 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/liverpool_re
     .data(data)
     .enter()
     .append("circle")
-    .attr("cx", function (d) { return x(d.FTHG) })
-    .attr("cy", function (d) { return y(d.FTHG) })
-    .attr("r", function (d) { return d.HST })
+    .attr("cx", function (d) { return x(d.HST) })
+    .attr("cy", function (d) { return y(d.HST) })
+    .attr("r", function (d) { return (d.FTHG * 10) })
     .attr("fill", function(d) {
       if (d.FTR === "H") {
         return "red"
