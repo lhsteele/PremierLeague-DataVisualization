@@ -29,6 +29,11 @@
   margin-top: 10%;
 }
 
+.player-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .league-parent-div {
   display: flex;
   flex-direction: column;
@@ -44,3 +49,7 @@
   overflow: overlay;
 }
 
+.player-data-area {
+  margin-left: 25%;
+  overflow: overlay;
+}
