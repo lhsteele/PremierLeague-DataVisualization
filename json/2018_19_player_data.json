@@ -1,0 +1,222 @@
+[
+ {
+   "Player": "Mohamed Salah",
+   "Club": "Liverpool",
+   "Goals": 22,
+   "Prev_val": 39.9,
+   "Current_Val": 171,
+   "Prev_club_pos": 4,
+   "Curren_club_pos": 2,
+   "Prev_fpl_sel": "12.40%",
+   "Current_fpl_sel": "37.80%"
+ },
+ {
+   "Player": "Sadio Mane",
+   "Club": "Liverpool",
+   "Goals": 22,
+   "Prev_val": 45.6,
+   "Current_Val": 136.8,
+   "Prev_club_pos": 4,
+   "Curren_club_pos": 2,
+   "Prev_fpl_sel": "5.30%",
+   "Current_fpl_sel": "26.50%"
+ },
+ {
+   "Player": "Pierre-Emerick Aubameyang",
+   "Club": "Arsenal",
+   "Goals": 22,
+   "Prev_val": 74.1,
+   "Current_Val": 79.8,
+   "Prev_club_pos": 6,
+   "Curren_club_pos": 5,
+   "Prev_fpl_sel": "-",
+   "Current_fpl_sel": "15.50%"
+ },
+ {
+   "Player": "Sergio Aguero",
+   "Club": "Man City",
+   "Goals": 21,
+   "Prev_val": 74.1,
+   "Current_Val": 74.1,
+   "Prev_club_pos": 1,
+   "Curren_club_pos": 1,
+   "Prev_fpl_sel": "9.70%",
+   "Current_fpl_sel": "21.50%"
+ },
+ {
+   "Player": "Jamie Vardy",
+   "Club": "Leicester",
+   "Goals": 18,
+   "Prev_val": 17.1,
+   "Current_Val": 22.8,
+   "Prev_club_pos": 9,
+   "Curren_club_pos": 9,
+   "Prev_fpl_sel": "1.50%",
+   "Current_fpl_sel": "10.50%"
+ },
+ {
+   "Player": "Raheem Sterling",
+   "Club": "Man City",
+   "Goals": 17,
+   "Prev_val": 51.3,
+   "Current_Val": 159.6,
+   "Prev_club_pos": 1,
+   "Curren_club_pos": 1,
+   "Prev_fpl_sel": "3.80%",
+   "Current_fpl_sel": "23.50%"
+ },
+ {
+   "Player": "Harry Kane",
+   "Club": "Tottenham",
+   "Goals": 17,
+   "Prev_val": 68.4,
+   "Current_Val": 171,
+   "Prev_club_pos": 3,
+   "Curren_club_pos": 4,
+   "Prev_fpl_sel": "35.10%",
+   "Current_fpl_sel": "21%"
+ },
+ {
+   "Player": "Eden Hazard",
+   "Club": "Chelsea",
+   "Goals": 16,
+   "Prev_val": 85.5,
+   "Current_Val": 113,
+   "Prev_club_pos": 5,
+   "Curren_club_pos": 3,
+   "Prev_fpl_sel": "2.30%",
+   "Current_fpl_sel": "-"
+ },
+ {
+   "Player": "Callum Wilson",
+   "Club": "Bournemouth",
+   "Goals": 14,
+   "Prev_val": 11.4,
+   "Current_Val": 34.2,
+   "Prev_club_pos": 12,
+   "Curren_club_pos": 14,
+   "Prev_fpl_sel": "20%",
+   "Current_fpl_sel": "26.30%"
+ },
+ {
+   "Player": "Richarlison",
+   "Club": "Everton",
+   "Goals": 13,
+   "Prev_val": 28.5,
+   "Current_Val": 57,
+   "Prev_club_pos": 8,
+   "Curren_club_pos": 8,
+   "Prev_fpl_sel": "-",
+   "Current_fpl_sel": "9.60%"
+ },
+ {
+   "Player": "Raul Jimenez",
+   "Club": "Wolves",
+   "Goals": 13,
+   "Prev_val": 17.1,
+   "Current_Val": 39.9,
+   "Prev_club_pos": 0,
+   "Curren_club_pos": 7,
+   "Prev_fpl_sel": "-",
+   "Current_fpl_sel": "44.10%"
+ },
+ {
+   "Player": "Paul Pogba",
+   "Club": "Man United",
+   "Goals": 13,
+   "Prev_val": 85.5,
+   "Current_Val": 114,
+   "Prev_club_pos": 2,
+   "Curren_club_pos": 6,
+   "Prev_fpl_sel": "19.50%",
+   "Current_fpl_sel": "7.00%"
+ },
+ {
+   "Player": "Gylfi Sigurdsson",
+   "Club": "Everton",
+   "Goals": 13,
+   "Prev_val": 28.5,
+   "Current_Val": 39.9,
+   "Prev_club_pos": 8,
+   "Curren_club_pos": 8,
+   "Prev_fpl_sel": "8.70%",
+   "Current_fpl_sel": "16.20%"
+ },
+ {
+   "Player": "Glenn Murray",
+   "Club": "Brighton",
+   "Goals": 13,
+   "Prev_val": 3.42,
+   "Current_Val": 3.42,
+   "Prev_club_pos": 15,
+   "Curren_club_pos": 17,
+   "Prev_fpl_sel": "1.30%",
+   "Current_fpl_sel": "4.20%"
+ },
+ {
+   "Player": "Alexandre Lacazette",
+   "Club": "Arsenal",
+   "Goals": 13,
+   "Prev_val": 45.6,
+   "Current_Val": 79.8,
+   "Prev_club_pos": 6,
+   "Curren_club_pos": 5,
+   "Prev_fpl_sel": "27%",
+   "Current_fpl_sel": "7.60%"
+ },
+ {
+   "Player": "Romelu Lukaku",
+   "Club": "Man United",
+   "Goals": 12,
+   "Prev_val": 57,
+   "Current_Val": 85.5,
+   "Prev_club_pos": 2,
+   "Curren_club_pos": 6,
+   "Prev_fpl_sel": "45%",
+   "Current_fpl_sel": "4.30%"
+ },
+ {
+   "Player": "Roberto Firmino",
+   "Club": "Liverpool",
+   "Goals": 12,
+   "Prev_val": 43.3,
+   "Current_Val": 91.2,
+   "Prev_club_pos": 4,
+   "Curren_club_pos": 2,
+   "Prev_fpl_sel": "20.30%",
+   "Current_fpl_sel": "7.90%"
+ },
+ {
+   "Player": "Luka Milivojevic",
+   "Club": "Crystal Palace",
+   "Goals": 12,
+   "Prev_val": 11.4,
+   "Current_Val": 22.8,
+   "Prev_club_pos": 11,
+   "Curren_club_pos": 12,
+   "Prev_fpl_sel": "0.20%",
+   "Current_fpl_sel": "14.70%"
+ },
+ {
+   "Player": "Heung-Min Son",
+   "Club": "Tottenham",
+   "Goals": 12,
+   "Prev_val": 34.2,
+   "Current_Val": 91.2,
+   "Prev_club_pos": 3,
+   "Curren_club_pos": 4,
+   "Prev_fpl_sel": "1.60%",
+   "Current_fpl_sel": "1.80%"
+ },
+ {
+   "Player": "Ayoze Perez",
+   "Club": "Newcastle",
+   "Goals": 12,
+   "Prev_val": 9.1,
+   "Current_Val": 22.8,
+   "Prev_club_pos": 10,
+   "Curren_club_pos": 13,
+   "Prev_fpl_sel": "1.60%",
+   "Current_fpl_sel": "7.70%"
+ }
+]
