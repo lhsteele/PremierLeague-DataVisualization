@@ -1,4 +1,4 @@
-d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/epl_201819.json").then(function (data) {
+d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_1819.json").then(function (data) {
   var width = 1000,
     height = 1000;
 
@@ -10,12 +10,12 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/epl_201
     .attr("transform", "translate(0,0)");
   // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-  var radiusScale = d3.scaleSqrt().domain([16, 98]).range([20, 100])
+  var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 20])
 
   var simulation = d3.forceSimulation()
     .force("x", d3.forceX(width / 2).strength(0.05))
     .force("y", d3.forceY(height / 2).strength(0.05))
-    .force("collide", d3.forceCollide(function (d) { return radiusScale(d.points) + 3 }))
+    .force("collide", d3.forceCollide(function (d) { return radiusScale(d.GPM) + 3 }))
 
   simulation.nodes(data)
     .on("tick", ticked)
@@ -42,7 +42,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/epl_201
       .transition()
       .duration(200)
     toolTip
-      .html(d.team + ":" + " " + d.points)
+      .html(d.WinClub + " " + d.FTHG + " " + d.)
     toolTip
       .style("opacity", 1)
       .style("left", (d3.mouse(this)[0]) + "px")
@@ -69,12 +69,12 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/epl_201
     .data(data)
     .enter()
     .append("circle")
-    .attr("r", function (d) { return radiusScale(d.points) })
+    .attr("r", function (d) { return radiusScale(d.GPM) })
     .on("mouseover", showData)
     .on("mousemove", moveData)
     .on("mouseleave", hideData)
     .attr("fill", function (d) {
-      switch (d.team) {
+      switch (d.WinClub) {
         case "Arsenal":
           return "#EF0107"
         case "Bournemouth":
@@ -83,7 +83,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/epl_201
           return "#0057B8"
         case "Burnley":
           return "#6C1D45"
-        case "Cardiff City":
+        case "Cardiff":
           return "#0070B5"
         case "Chelsea":
           return "#034694"
@@ -93,27 +93,27 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/epl_201
           return "#003399"
         case "Fulham":
           return "#CC0000"
-        case "Huddersfield Town":
+        case "Huddersfield":
           return "#0E63AD"
-        case "Leicester City":
+        case "Leicester":
           return "#003090"
         case "Liverpool":
           return "#C8102E"
-        case "Manchester City":
+        case "Man City":
           return "#6CABDD"
-        case "Manchester United":
+        case "Man United":
           return "#DA291C"
-        case "Newcastle United":
+        case "Newcastle":
           return "#241F20"
         case "Southampton":
           return "#D71920"
-        case "Tottenham Hotspur":
+        case "Tottenham":
           return "#132257"
         case "Watford":
           return "#FBEE23"
         case "West Ham":
           return "#7A263A"
-        case "Wolverhampton Wanderers":
+        case "Wolves":
           return "#FDB913"
       }
     })
