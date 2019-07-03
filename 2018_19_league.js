@@ -42,7 +42,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
       .transition()
       .duration(200)
     toolTip
-      .html(d.WinClub + " " + d.FTHG + " " + d.LossClub + " " + d.FTAG)
+      .html(d.WinClub + " " + d.WinningGoals + " " + d.LossClub + " " + d.LosingGoals)
     toolTip
       .style("opacity", 1)
       .style("left", (d3.mouse(this)[0]) + "px")
