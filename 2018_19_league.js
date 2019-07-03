@@ -10,7 +10,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
     .attr("transform", "translate(0,0)");
   // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-  var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 20])
+  var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 25])
 
   var simulation = d3.forceSimulation()
     .force("x", d3.forceX(width / 2).strength(0.05))
@@ -42,11 +42,11 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
       .transition()
       .duration(200)
     toolTip
-      .html(d.WinClub + " " + d.FTHG + " " + d.)
+      .html(d.WinClub + " " + d.FTHG + " " + d.LossClub + " " + d.FTAG)
     toolTip
       .style("opacity", 1)
       .style("left", (d3.mouse(this)[0]) + "px")
-      // .style("top", (d3.mouse(this)[1]) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
       .style("visibility", "visible")
       .style("display", "inline")
     console.log(d.team)
@@ -55,7 +55,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
   var moveData = function (d) {
     toolTip
       .style("left", (d3.mouse(this)[0]) + "px")
-    // .style("top", (d3.mouse(this)[1]) + "px")
+    .style("top", (d3.mouse(this)[1]) + "px")
   }
 
   var hideData = function (d) {
