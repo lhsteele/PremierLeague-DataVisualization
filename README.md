@@ -8,7 +8,7 @@ This data visualization looks at players, their signing values and how that rela
 
 ## Functionality and MVP Features
 
-* Show an overall visualization of the top 50 players in the premier league.
+* Show an overall visualization of the top 25 players in the premier league.
 * Hovering over a player will show stats specific to that player
 * Clicking on a player will link to their club, with additional stats on the club.
 
