@@ -1,0 +1,182 @@
+[
+ {
+   "season": "2018/2019",
+   "team": "Manchester City",
+   "p": 38,
+   "w": 32,
+   "d": 2,
+   "gd": 72,
+   "points": 98
+ },
+ {
+   "season": "2018/2019",
+   "team": "Liverpool",
+   "p": 38,
+   "w": 30,
+   "d": 7,
+   "gd": 67,
+   "points": 97
+ },
+ {
+   "season": "2018/2019",
+   "team": "Chelsea",
+   "p": 38,
+   "w": 21,
+   "d": 9,
+   "gd": 24,
+   "points": 72
+ },
+ {
+   "season": "2018/2019",
+   "team": "Tottenham Hotspur",
+   "p": 38,
+   "w": 23,
+   "d": 2,
+   "gd": 28,
+   "points": 71
+ },
+ {
+   "season": "2018/2019",
+   "team": "Arsenal",
+   "p": 38,
+   "w": 21,
+   "d": 7,
+   "gd": 22,
+   "points": 70
+ },
+ {
+   "season": "2018/2019",
+   "team": "Manchester United",
+   "p": 38,
+   "w": 19,
+   "d": 9,
+   "gd": 11,
+   "points": 66
+ },
+ {
+   "season": "2018/2019",
+   "team": "Wolverhampton Wanderers",
+   "p": 38,
+   "w": 16,
+   "d": 9,
+   "gd": 1,
+   "points": 57
+ },
+ {
+   "season": "2018/2019",
+   "team": "Everton",
+   "p": 38,
+   "w": 15,
+   "d": 9,
+   "gd": 8,
+   "points": 54
+ },
+ {
+   "season": "2018/2019",
+   "team": "Leicester City",
+   "p": 38,
+   "w": 15,
+   "d": 7,
+   "gd": 3,
+   "points": 52
+ },
+ {
+   "season": "2018/2019",
+   "team": "West Ham",
+   "p": 38,
+   "w": 15,
+   "d": 7,
+   "gd": -3,
+   "points": 52
+ },
+ {
+   "season": "2018/2019",
+   "team": "Watford",
+   "p": 38,
+   "w": 14,
+   "d": 8,
+   "gd": -7,
+   "points": 50
+ },
+ {
+   "season": "2018/2019",
+   "team": "Crystal Palace",
+   "p": 38,
+   "w": 14,
+   "d": 7,
+   "gd": -2,
+   "points": 49
+ },
+ {
+   "season": "2018/2019",
+   "team": "Newcastle United",
+   "p": 38,
+   "w": 12,
+   "d": 9,
+   "gd": -6,
+   "points": 45
+ },
+ {
+   "season": "2018/2019",
+   "team": "Bournemouth",
+   "p": 38,
+   "w": 13,
+   "d": 6,
+   "gd": -14,
+   "points": 45
+ },
+ {
+   "season": "2018/2019",
+   "team": "Burnley",
+   "p": 38,
+   "w": 11,
+   "d": 7,
+   "gd": -23,
+   "points": 40
+ },
+ {
+   "season": "2018/2019",
+   "team": "Southampton",
+   "p": 38,
+   "w": 9,
+   "d": 12,
+   "gd": -20,
+   "points": 39
+ },
+ {
+   "season": "2018/2019",
+   "team": "Brighton",
+   "p": 38,
+   "w": 9,
+   "d": 9,
+   "gd": -25,
+   "points": 36
+ },
+ {
+   "season": "2018/2019",
+   "team": "Cardiff City",
+   "p": 38,
+   "w": 10,
+   "d": 4,
+   "gd": -35,
+   "points": 34
+ },
+ {
+   "season": "2018/2019",
+   "team": "Fulham",
+   "p": 38,
+   "w": 7,
+   "d": 5,
+   "gd": -47,
+   "points": 26
+ },
+ {
+   "season": "2018/2019",
+   "team": "Huddersfield Town",
+   "p": 38,
+   "w": 3,
+   "d": 7,
+   "gd": -54,
+   "points": 16
+ }
+]

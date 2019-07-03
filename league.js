@@ -48,7 +48,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_sea
     toolTip
       .style("opacity", 1)
       .style("left", (d3.mouse(this)[0]) + "px")
-      .style("top", (d3.mouse(this)[1]) + "px")
+      // .style("top", (d3.mouse(this)[1]) + "px")
       .style("visibility", "visible")
       .style("display", "inline")
     console.log(d.HomeTeam)
@@ -57,7 +57,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/EPL_1718_sea
   var moveData = function(d) {
     toolTip
       .style("left", (d3.mouse(this)[0]) + "px")
-      .style("top", (d3.mouse(this)[1]) + "px")
+      // .style("top", (d3.mouse(this)[1]) + "px")
   }
 
   var hideData = function(d) {
