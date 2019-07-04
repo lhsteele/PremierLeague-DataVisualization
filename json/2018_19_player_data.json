@@ -8,7 +8,7 @@
    "Prev_club_pos": 4,
    "Curren_club_pos": 2,
    "Prev_fpl_sel": "12.40%",
-   "Current_fpl_sel": "37.80%"
+   "Current_fpl_sel": 0.3780
  },
  {
    "Player": "Sadio Mane",
@@ -19,7 +19,7 @@
    "Prev_club_pos": 4,
    "Curren_club_pos": 2,
    "Prev_fpl_sel": "5.30%",
-   "Current_fpl_sel": "26.50%"
+   "Current_fpl_sel": 0.2650
  },
  {
    "Player": "Pierre-Emerick Aubameyang",
@@ -30,7 +30,7 @@
    "Prev_club_pos": 6,
    "Curren_club_pos": 5,
    "Prev_fpl_sel": "-",
-   "Current_fpl_sel": "15.50%"
+   "Current_fpl_sel": 0.550
  },
  {
    "Player": "Sergio Aguero",
@@ -41,7 +41,7 @@
    "Prev_club_pos": 1,
    "Curren_club_pos": 1,
    "Prev_fpl_sel": "9.70%",
-   "Current_fpl_sel": "21.50%"
+   "Current_fpl_sel": 0.2150
  },
  {
    "Player": "Jamie Vardy",
@@ -52,7 +52,7 @@
    "Prev_club_pos": 9,
    "Curren_club_pos": 9,
    "Prev_fpl_sel": "1.50%",
-   "Current_fpl_sel": "10.50%"
+   "Current_fpl_sel": 0.1050
  },
  {
    "Player": "Raheem Sterling",
@@ -63,7 +63,7 @@
    "Prev_club_pos": 1,
    "Curren_club_pos": 1,
    "Prev_fpl_sel": "3.80%",
-   "Current_fpl_sel": "23.50%"
+   "Current_fpl_sel": 0.2350
  },
  {
    "Player": "Harry Kane",
@@ -74,7 +74,7 @@
    "Prev_club_pos": 3,
    "Curren_club_pos": 4,
    "Prev_fpl_sel": "35.10%",
-   "Current_fpl_sel": "21%"
+   "Current_fpl_sel": 0.21
  },
  {
    "Player": "Eden Hazard",
@@ -85,7 +85,7 @@
    "Prev_club_pos": 5,
    "Curren_club_pos": 3,
    "Prev_fpl_sel": "2.30%",
-   "Current_fpl_sel": "-"
+   "Current_fpl_sel": 0.0
  },
  {
    "Player": "Callum Wilson",
@@ -96,7 +96,7 @@
    "Prev_club_pos": 12,
    "Curren_club_pos": 14,
    "Prev_fpl_sel": "20%",
-   "Current_fpl_sel": "26.30%"
+   "Current_fpl_sel": 0.2630
  },
  {
    "Player": "Richarlison",
@@ -107,7 +107,7 @@
    "Prev_club_pos": 8,
    "Curren_club_pos": 8,
    "Prev_fpl_sel": "-",
-   "Current_fpl_sel": "9.60%"
+   "Current_fpl_sel": 0.960
  },
  {
    "Player": "Raul Jimenez",
@@ -118,7 +118,7 @@
    "Prev_club_pos": 0,
    "Curren_club_pos": 7,
    "Prev_fpl_sel": "-",
-   "Current_fpl_sel": "44.10%"
+   "Current_fpl_sel": 0.4410
  },
  {
    "Player": "Paul Pogba",
@@ -129,7 +129,7 @@
    "Prev_club_pos": 2,
    "Curren_club_pos": 6,
    "Prev_fpl_sel": "19.50%",
-   "Current_fpl_sel": "7.00%"
+   "Current_fpl_sel": 0.700
  },
  {
    "Player": "Gylfi Sigurdsson",
@@ -140,7 +140,7 @@
    "Prev_club_pos": 8,
    "Curren_club_pos": 8,
    "Prev_fpl_sel": "8.70%",
-   "Current_fpl_sel": "16.20%"
+   "Current_fpl_sel": 0.1620
  },
  {
    "Player": "Glenn Murray",
@@ -151,7 +151,7 @@
    "Prev_club_pos": 15,
    "Curren_club_pos": 17,
    "Prev_fpl_sel": "1.30%",
-   "Current_fpl_sel": "4.20%"
+   "Current_fpl_sel": 0.420
  },
  {
    "Player": "Alexandre Lacazette",
@@ -162,7 +162,7 @@
    "Prev_club_pos": 6,
    "Curren_club_pos": 5,
    "Prev_fpl_sel": "27%",
-   "Current_fpl_sel": "7.60%"
+   "Current_fpl_sel": 0.760
  },
  {
    "Player": "Romelu Lukaku",
@@ -173,7 +173,7 @@
    "Prev_club_pos": 2,
    "Curren_club_pos": 6,
    "Prev_fpl_sel": "45%",
-   "Current_fpl_sel": "4.30%"
+   "Current_fpl_sel": 0.430
  },
  {
    "Player": "Roberto Firmino",
@@ -184,7 +184,7 @@
    "Prev_club_pos": 4,
    "Curren_club_pos": 2,
    "Prev_fpl_sel": "20.30%",
-   "Current_fpl_sel": "7.90%"
+   "Current_fpl_sel": 0.79
  },
  {
    "Player": "Luka Milivojevic",
@@ -195,7 +195,7 @@
    "Prev_club_pos": 11,
    "Curren_club_pos": 12,
    "Prev_fpl_sel": "0.20%",
-   "Current_fpl_sel": "14.70%"
+   "Current_fpl_sel": 0.1470
  },
  {
    "Player": "Heung-Min Son",
@@ -206,7 +206,7 @@
    "Prev_club_pos": 3,
    "Curren_club_pos": 4,
    "Prev_fpl_sel": "1.60%",
-   "Current_fpl_sel": "1.80%"
+   "Current_fpl_sel": 0.180
  },
  {
    "Player": "Ayoze Perez",
@@ -217,6 +217,6 @@
    "Prev_club_pos": 10,
    "Curren_club_pos": 13,
    "Prev_fpl_sel": "1.60%",
-   "Current_fpl_sel": "7.70%"
+   "Current_fpl_sel": 0.770
  }
 ]

@@ -49,7 +49,6 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
       .style("top", (d3.mouse(this)[1]) + "px")
       .style("visibility", "visible")
       .style("display", "inline")
-    console.log(d.team)
   }
 
   var moveData = function (d) {

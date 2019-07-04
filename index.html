@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script type="text/javascript" src="liverpool.js"></script>
   <script type="text/javascript" src="league.js"></script>
   <script type="text/javascript" src="2018_19_league.js"></script>
-  <script type="text/javascript" src="players.js"></script>
-  <script type="text/javascript" src="player.js"></script>
+  <!-- <script type="text/javascript" src="players.js"></script> -->
+  <!-- <script type="text/javascript" src="player.js"></script> -->
+  <script type="text/javascript" src="Goals.js"></script>
+  <script type="text/javascript" src="Popularity.js"></script>
+
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Inder|Niramit&display=swap" rel="stylesheet">
 </head>
@@ -18,12 +20,27 @@
     <div class="title">English Premier League</div>
     <div class="title2">2018/2019 season</div>
   </div>
-  <!-- <div class="player-parent-div" width=client.width height=1000>
-    <div class=chart-title>Players</div>
-    <svg class="player-data-area" id="player-data-area" width=client.width height=1000></svg>
-  </div> -->
   <div class="league-parent-div" id="league-parent-div" width=client.width height=1000>
-    <!-- <div class="chart-title">all matches in the 2018/19 season</div> -->
     <svg class="league-data-area" id="league-data-area" width=100% height=1000></svg>
+  </div>
+  <div class="player-parent-div" id="player-parent-div" width=client.width>
+    <div class="players-chart-title">Top 25 Goal Scorers</div>
+    <div class="top-25-container" >
+      <div class="goals-container" width=client.width height=500>
+        <div class="goals-label">Number of Goals</div>
+        <svg class="goals-data-area" id="goals-data-area" width=100% height=500></svg>
+      </div>
+      <div class="value-container">
+        <div class="value-label">Current Value</div>
+        <svg class="value-data-area" id="value-data-area"></svg>
+      </div>
+      <div class="popularity-container">
+        <div class="popularity-label">Player popularity</div>
+        <div class="popularity-label-2">(based on Fantasy Premier League selection)</div>
+        <svg class="popularity-data-area" id="popularity-data-area"></svg>
+      </div>
+    </div>
+    
+    
   </div>
 </body>

@@ -23,12 +23,6 @@
   font-size: 20px;
 }
 
-.chart-title{
-  font-size: 25px;
-  text-align: center;
-  margin-top: 5%;
-}
-
 .player-ul {
   display: flex;
   flex-wrap: wrap;
@@ -53,4 +47,76 @@
 .player-data-area {
   margin-left: 25%;
   overflow: overlay;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.player-parent-div {
+  display: flex;
+  flex-direction: column;
+  height: 2000px;
+  flex-wrap: wrap
+}
+
+.players-chart-title {
+  margin: 10%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.top-25-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.goals-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.goals-label {
+  font-size: 15px;
+}
+
+.popularity-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.popularity-label {
+  font-size: 15px;
+}
+
+.popularity-label-2 {
+  font-size: 10px;
 }
