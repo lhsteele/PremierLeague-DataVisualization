@@ -13,9 +13,9 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .data(data)
     .enter()
     .append("circle")
-    .attr("cx", 50)
-    .attr("cy", 50)
-    .attr("r", function (d) { return console.log(d.Current_fpl_sel) })
+    .attr("cx", 150)
+    .attr("cy", 150)
+    .attr("r", function (d) { return (d.Current_fpl_sel * 100 ) })
     .attr("fill", function (d) {
       switch (d.Club) {
         case "Arsenal":
