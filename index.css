@@ -44,6 +44,11 @@
   overflow: overlay;
 }
 
+.player-parent-div {
+  display: flex;
+  flex-direction: column;
+}
+
 .player-data-area {
   margin-left: 25%;
   overflow: overlay;
@@ -93,9 +98,10 @@
 
 .top-25-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
+
 
 .goals-container {
   display: flex;
@@ -119,4 +125,14 @@
 
 .popularity-label-2 {
   font-size: 10px;
+}
+
+.value-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.value-data-area {
+  text-align: center;
 }

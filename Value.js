@@ -1,23 +1,35 @@
 d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19_player_data.json").then(function (data) {
-  var width = 500,
-  height = 500
+  var width = 350,
+    height = 350
+    radius = Math.min(width, height) / 2
 
-  var svg = d3.select("#goals-data-area")
+  var svg = d3.select("#value-data-area")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
-    .append("g")
 
-  
-  var circles = svg.selectAll("circle")
-    .data(data)
-    .enter()
-    .append("circle")
-    .attr("cx", 150)
-    .attr("cy", 150)
-    .attr("r", function (d) { return d.Goals * 6 })
+
+  var pieDetails = d3.pie()
+    .sort(null)
+    .value(function (d) { return d.Current_Val })(data)
+
+  var segments = d3.arc()
+    .outerRadius(radius - 175)
+    .innerRadius(radius - 50)
+    .cornerRadius(50)
+    .padAngle(0)
+    .padRadius(50)
+
+  var sections = svg.append("g")
+    .attr("transform", "translate(150, 150)")
+    .selectAll("path")
+    .data(pieDetails)
+
+  sections.enter()
+    .append("path")
+    .attr("d", segments)
     .attr("fill", function (d) {
-      switch (d.Club) {
+      switch (d.data.Club) {
         case "Arsenal":
           return "#EF0107"
         case "Bournemouth":
@@ -46,4 +58,5 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
           return "#FDB913"
       }
     })
+
 })

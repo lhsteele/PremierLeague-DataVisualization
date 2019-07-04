@@ -15,7 +15,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
 
   var segments = d3.arc() 
     .outerRadius(radius - 130)
-    .innerRadius(10)
+    .innerRadius(50)
     .padAngle(.05)
     .padRadius(50)
 
@@ -57,18 +57,5 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
           return "#FDB913"
       }
     })
-
-
-  // 
-
-
-  // var pie = svg.selectAll("arc")
-  //   .data(pie(data))
-  //   .enter()
-  //   .append("g")
-  //   .attr("class", "arc")
-
-  // pie.append("path")
-  //   .attr("d", arc)
     
 })
