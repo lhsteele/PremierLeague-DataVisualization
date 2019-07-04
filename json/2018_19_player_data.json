@@ -176,17 +176,6 @@
    "Current_fpl_sel": 0.043
  },
  {
-   "Player": "Roberto Firmino",
-   "Club": "Liverpool",
-   "Goals": 12,
-   "Prev_val": 43.3,
-   "Current_Val": 91.2,
-   "Prev_club_pos": 4,
-   "Curren_club_pos": 2,
-   "Prev_fpl_sel": "20.30%",
-   "Current_fpl_sel": 0.079
- },
- {
    "Player": "Luka Milivojevic",
    "Club": "Crystal Palace",
    "Goals": 12,
@@ -219,4 +208,15 @@
    "Prev_fpl_sel": "1.60%",
    "Current_fpl_sel": 0.077
  }
+ {
+  "Player": "Roberto Firmino",
+  "Club": "Liverpool",
+  "Goals": 12,
+  "Prev_val": 43.3,
+  "Current_Val": 91.2,
+  "Prev_club_pos": 4,
+  "Curren_club_pos": 2,
+  "Prev_fpl_sel": "20.30%",
+  "Current_fpl_sel": 0.079
+}
 ]
