@@ -1,23 +1,34 @@
 d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19_player_data.json").then(function (data) {
   var width = 500,
     height = 500
+    radius = Math.min(width, height) / 2
 
   var svg = d3.select("#popularity-data-area")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
-    .append("g")
 
 
-  var circles = svg.selectAll("circle")
-    .data(data)
-    .enter()
-    .append("circle")
-    .attr("cx", 150)
-    .attr("cy", 150)
-    .attr("r", function (d) { return (d.Current_fpl_sel * 100 ) })
+  var pieDetails = d3.pie()
+    .sort(null)
+    .value(function(d) { return d.Current_fpl_sel })(data)
+
+  var segments = d3.arc() 
+    .outerRadius(radius - 130)
+    .innerRadius(10)
+    .padAngle(.05)
+    .padRadius(50)
+
+  var sections = svg.append("g")
+    .attr("transform", "translate(150, 150)")
+    .selectAll("path")
+    .data(pieDetails)
+
+  sections.enter() 
+    .append("path")
+    .attr("d", segments)
     .attr("fill", function (d) {
-      switch (d.Club) {
+      switch (d.data.Club) {
         case "Arsenal":
           return "#EF0107"
         case "Bournemouth":
@@ -46,4 +57,18 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
           return "#FDB913"
       }
     })
+
+
+  // 
+
+
+  // var pie = svg.selectAll("arc")
+  //   .data(pie(data))
+  //   .enter()
+  //   .append("g")
+  //   .attr("class", "arc")
+
+  // pie.append("path")
+  //   .attr("d", arc)
+    
 })
