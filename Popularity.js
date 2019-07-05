@@ -66,7 +66,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .on("mouseover", function(d) {
       return tooltip
         .style("visibility", "visible")
-        .html(d.data.Player + Math.floor(d.data.Current_fpl_sel * 100) + "%")
+        .html(d.data.Player + " " + Math.floor(d.data.Current_fpl_sel * 100) + "%")
     })
     .on("mousemove", function() {
       return tooltip.style("top", (event.pageY-10)+"px").style("left", (event.pageX+10)+"px")
