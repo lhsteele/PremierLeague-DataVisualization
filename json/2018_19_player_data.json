@@ -1,16 +1,5 @@
 [
  {
-   "Player": "Mohamed Salah",
-   "Club": "Liverpool",
-   "Goals": 22,
-   "Prev_val": 39.9,
-   "Current_Val": 171,
-   "Prev_club_pos": 4,
-   "Curren_club_pos": 2,
-   "Prev_fpl_sel": "12.40%",
-   "Current_fpl_sel": 0.378
- },
- {
    "Player": "Sadio Mane",
    "Club": "Liverpool",
    "Goals": 22,
@@ -32,6 +21,17 @@
    "Prev_fpl_sel": "-",
    "Current_fpl_sel": 0.155
  },
+ {
+  "Player": "Mohamed Salah",
+  "Club": "Liverpool",
+  "Goals": 22,
+  "Prev_val": 39.9,
+  "Current_Val": 171,
+  "Prev_club_pos": 4,
+  "Curren_club_pos": 2,
+  "Prev_fpl_sel": "12.40%",
+  "Current_fpl_sel": 0.378
+ },  
  {
    "Player": "Sergio Aguero",
    "Club": "Man City",

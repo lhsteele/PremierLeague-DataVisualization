@@ -8,6 +8,13 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .attr("height", height)
     .append("g")
 
+  var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .attr("class", "tooltip")
+
   
   var circles = svg.selectAll("circle")
     .data(data)
@@ -48,4 +55,16 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
           return "#FDB913"
       }
     })
+    .on("mouseover", function (d) {
+      return tooltip
+        .style("visibility", "visible")
+        .html(d.Player + " " + d.Goals)
+    })
+    .on("mousemove", function () {
+      return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px")
+    })
+    .on("mouseout", function () {
+      return tooltip.style("visibility", "hidden")
+    })
+    
 })

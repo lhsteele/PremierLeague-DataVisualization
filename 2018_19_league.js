@@ -116,7 +116,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
           return "#FDB913"
       }
     })
-
+    
 
 })
 
