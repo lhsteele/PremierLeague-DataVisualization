@@ -25,6 +25,13 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .selectAll("path")
     .data(pieDetails)
 
+  var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .attr("class", "tooltip")
+
   sections.enter()
     .append("path")
     .attr("d", segments)
@@ -57,6 +64,17 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
         case "Wolves":
           return "#FDB913"
       }
+    })
+    .on("mouseover", function (d) {
+      return tooltip
+        .style("visibility", "visible")
+        .html(d.data.Player + " " + "$" + d.data.Current_Val)
+    })
+    .on("mousemove", function () {
+      return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px")
+    })
+    .on("mouseout", function () {
+      return tooltip.style("visibility", "hidden")
     })
 
 })

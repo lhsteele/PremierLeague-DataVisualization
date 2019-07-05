@@ -8,7 +8,6 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
     .attr("height", height)
     .append("g")
     .attr("transform", "translate(0,0)");
-  // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
   var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 25])
 
@@ -26,52 +25,18 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
       .attr("cy", function (d) { return d.y })
   }
 
-  var toolTip = d3.select("body")
+  var tooltip = d3.select("body")
     .append("div")
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "white")
-    .style("border-radius", 10)
-    .style("padding", "10px")
     .style("position", "absolute")
     .style("z-index", "10")
     .style("visibility", "hidden")
-
-  var showData = function (d) {
-    toolTip
-      .transition()
-      .duration(200)
-    toolTip
-      .html(d.WinClub + " " + d.WinningGoals + " " + d.LossClub + " " + d.LosingGoals)
-    toolTip
-      .style("opacity", 1)
-      .style("left", (d3.mouse(this)[0]) + "px")
-      .style("top", (d3.mouse(this)[1]) + "px")
-      .style("visibility", "visible")
-      .style("display", "inline")
-  }
-
-  var moveData = function (d) {
-    toolTip
-      .style("left", (d3.mouse(this)[0]) + "px")
-    .style("top", (d3.mouse(this)[1]) + "px")
-  }
-
-  var hideData = function (d) {
-    toolTip
-      .transition()
-      .duration(200)
-      .style("opacity", 0)
-  }
+    .attr("class", "force-tooltip")
 
   var circles = svg.selectAll("clubs")
     .data(data)
     .enter()
     .append("circle")
     .attr("r", function (d) { return radiusScale(d.GPM) })
-    .on("mouseover", showData)
-    .on("mousemove", moveData)
-    .on("mouseleave", hideData)
     .attr("fill", function (d) {
       switch (d.WinClub) {
         case "Arsenal":
@@ -116,7 +81,17 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
           return "#FDB913"
       }
     })
-    
+    .on("mouseover", function (d) {
+      return tooltip
+        .style("visibility", "visible")
+        .html(d.WinClub + " " + d.WinningGoals + " : " + d.LossClub + " " + d.LosingGoals)
+    })
+    .on("mousemove", function () {
+      return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px")
+    })
+    .on("mouseout", function () {
+      return tooltip.style("visibility", "hidden")
+    })
 
 })
 
