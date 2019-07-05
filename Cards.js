@@ -1,14 +1,85 @@
+const cardsMatrix = [
+  [0, 7, 10, 13, 13, 4, 8, 8, 3, 14, 9, 5, 6, 10, 2, 4, 13, 7, 6, 9],
+  [7, 0, 10, 7, 5, 5, 10, 10, 8, 10, 8, 7, 3, 10, 8, 6, 11, 10, 9, 12],
+  [10, 10, 0, 4, 5, 4, 12, 3, 11, 7, 7, 2, 3, 3, 7, 8, 6, 5, 6, 4],
+  [13, 7, 4, 0, 9, 9, 5, 8, 6, 10, 5, 3, 6, 10, 5, 5, 6, 6, 10, 8],
+  [13, 5, 5, 9, 0, 5, 3, 7, 6, 6, 6, 2, 5, 9, 6, 10, 5, 3, 6, 6],
+  [4, 5, 4, 9, 5, 0, 2, 10, 6, 3, 3, 3, 5, 12, 6, 9, 5, 2, 6, 13],
+  [8, 10, 12, 5, 3, 2, 0, 5, 8, 3, 6, 5, 4, 8, 5, 7, 3, 11, 6, 12],
+  [8, 10, 3, 8, 7, 10, 5, 0, 6, 12, 8, 8, 5, 5, 9, 8, 4, 5, 9, 6],
+  [3, 8, 11, 6, 6, 6, 8, 6, 0, 7, 2, 5, 2, 8, 4, 6, 5, 8, 5, 7],
+  [14, 10, 7, 10, 6, 3, 3, 12, 7, 0, 6, 2, 6, 4, 5, 6, 8, 7, 4, 7],
+  [9, 8, 7, 5, 6, 3, 6, 8, 2, 6, 0, 9, 10, 11, 5, 7, 8, 10, 5, 10],
+  [5, 7, 2, 3, 2, 3, 5, 8, 5, 2, 9, 0, 10, 6, 2, 8, 1, 3, 5, 2],
+  [6, 3, 3, 6, 5, 5, 4, 5, 2, 6, 10, 10, 0, 6, 5, 8, 7, 3, 2, 5],
+  [10, 10, 3, 10, 9, 12, 8, 5, 8, 4, 11, 6, 6, 0, 7, 11, 9, 7, 3, 6],
+  [2, 8, 7, 5, 6, 6, 5, 9, 4, 5, 5, 2, 5, 7, 0, 3, 5, 9, 13, 12],
+  [4, 6, 8, 5, 10, 9, 7, 8, 6, 6, 7, 8, 8, 11, 3, 0, 6, 12, 4, 8],
+  [13, 11, 6, 6, 5, 5, 3, 4, 5, 8, 8, 1, 7, 9, 5, 6, 0, 7, 5, 8],
+  [7, 10, 5, 6, 3, 2, 11, 5, 8, 7, 10, 3, 3, 7, 9, 12, 7, 0, 7, 9],
+  [6, 9, 6, 10, 6, 6, 6, 9, 5, 4, 5, 5, 2, 3, 13, 4, 5, 7, 0, 8],
+  [9, 12, 4, 8, 6, 13, 12, 6, 7, 7, 10, 2, 5, 6, 12, 8, 8, 9, 8, 0]
+]
 
-d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/2017-18_Foul_Matrix-Sheet1.csv").then(function (data) {
-  var width = 1000,
-    height = 1000;
-
+const clubColors = [
+  "#EF0107",
+  "#DA291C",
+  "#0057B8",
+  "#6C1D45",
+  "#0070B5",
+  "#034694",
+  "#1B458F",
+  "#003399",
+  "#CC0000",
+  "#0E63AD",
+  "#003090",
+  "#C8102E",
+  "#6CABDD",
+  "#DA291C",
+  "#241F20",
+  "#D71920",
+  "#132257",
+  "#FBEE23",
+  "#7A263A",
+  "#FDB913"
+]
+window.onload = function() {
   var svg = d3.select("#cards-data-area")
     .append("svg")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", 1000)
+    .attr("height", 1000)
     .append("g")
-    .attr("transform", "translate(0,0)");
+    .attr("transform", "translate(500,500)")
 
-  console.log(data)
-})
+  var res = d3.chord()
+    .padAngle(0.05)
+    .sortSubgroups(d3.descending)
+    (cardsMatrix)
+
+  svg
+    .datum(res)
+    .append("g")
+    .selectAll("g")
+    .data(function (d) { return d.groups; })
+    .enter()
+    .append("g")
+    .append("path")
+    .style("fill", function(d, i) { return clubColors[i] })
+    .attr("d", d3.arc()
+      .innerRadius(400)
+      .outerRadius(430)
+    )
+    .attr("stroke-width", function (d) { return console.log(d) })
+
+  svg
+    .datum(res)
+    .append("g")
+    .selectAll("path")
+    .data(function (d) { return d; })
+    .enter()
+    .append("path")
+    .attr("d", d3.ribbon()
+      .radius(400)
+    )
+    .style("fill", function(d) { return (clubColors[d.target.index]) })
+}
