@@ -16,7 +16,9 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .attr("cx", 150)
     .attr("cy", 150)
     .attr("r", function (d) { return d.Goals * 6 })
-    .attr("fill", function (d) {
+    .attr("fill", "white")
+    .attr("stroke-width", 5)
+    .attr("stroke", function (d) {
       switch (d.Club) {
         case "Arsenal":
           return "#EF0107"
