@@ -1,5 +1,5 @@
 
-d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_1819.json").then(function (data) {
+d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/2017-18_Foul_Matrix-Sheet1.csv").then(function (data) {
   var width = 1000,
     height = 1000;
 
@@ -10,4 +10,5 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
     .append("g")
     .attr("transform", "translate(0,0)");
 
+  console.log(data)
 })
