@@ -117,10 +117,6 @@
   text-align: center;
 }
 
-.cards-parent-div {
- 
-}
-
 .cards-data-container {
   display: flex;
   justify-content: space-around;
@@ -175,12 +171,9 @@ div.force-tooltip {
 }
 
 .top-4-container {
- 
+  width: 500px
 }
 
 .bottom-4-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  width: 500px;
 }
