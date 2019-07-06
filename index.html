@@ -9,8 +9,7 @@
   <script type="text/javascript" src="Goals.js"></script>
   <script type="text/javascript" src="Popularity.js"></script>
   <script type="text/javascript" src="Value.js"></script>
-  <script type="text/javascript" src="Top4Cards.js"></script>
-  <!-- <script type="text/javascript" src="Bottom4Cards.js"></script> -->
+  <script type="text/javascript" src="Cards.js"></script>
 
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Inder|Niramit&display=swap" rel="stylesheet">
@@ -19,9 +18,18 @@
 <body class="main">
   <div class="title-group">
     <div class="title">English Premier League</div>
-    <div class="title2">2018/2019 season</div>
+    <!-- <div class="title2">2018/2019 season</div> -->
   </div>
   <div class="league-parent-div" id="league-parent-div" width=client.width height=1000>
+    <div class="league-text">
+      <div class="title2">Every match in the 2018/2019 premier league season.</div>
+      </br>
+      <div>Circle size = how many goals scored</div>
+      <div>Circle color = winning team</div>
+      <div>(or in the case of a draw, the home team)</div>
+      </br>  
+      <div>Hover over a circle to see the match score.</div>
+    </div>
     <svg class="league-data-area" id="league-data-area" width=100% height=1000></svg>
   </div>
   <div class="player-parent-div" id="player-parent-div" width=client.width>
@@ -44,12 +52,15 @@
       </div> 
     </div>
   <div class="cards-parent-div" id="cards-parent-div" width=client.width>
-    <div class="cards-section-label">Total cards in a season between clubs</div>
+    <div class="cards-section-label">Total cards throughout the season.</div>
+    <div class="cards-section-sublabel">These charts show the total cards between two clubs.</div>
     <div class="cards-data-container">
       <div class="top-4-container">
+        <div class="top-bottom-label">Top 4 Clubs</div>
         <svg class="top-4-cards-data-area" id="top-4-cards-data-area" width=100% height=1000></svg>
       </div>
       <div class="bottom-4-container">
+        <div class="top-bottom-label">Bottom 4 Clubs</div>
         <svg class="bottom-4-cards-data-area" id="bottom-4-cards-data-area" width=100% height=1000></svg>
       </div>
     </div>

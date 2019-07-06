@@ -11,10 +11,18 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
 
   var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 25])
 
+  var forceX = d3.forceX(function(d) {
+    return width / 2
+  }).strength(0.05)
+
+  var forceCollide = d3.forceCollide(function(d) {
+    return radiusScale(d.GPM) + 3
+  })
+
   var simulation = d3.forceSimulation()
-    .force("x", d3.forceX(width / 2).strength(0.05))
+    .force("x", forceX)
     .force("y", d3.forceY(height / 2).strength(0.05))
-    .force("collide", d3.forceCollide(function (d) { return radiusScale(d.GPM) + 3 }))
+    .force("collide", forceCollide)
 
   simulation.nodes(data)
     .on("tick", ticked)
@@ -31,6 +39,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
     .style("z-index", "10")
     .style("visibility", "hidden")
     .attr("class", "force-tooltip")
+
 
   var circles = svg.selectAll("clubs")
     .data(data)
