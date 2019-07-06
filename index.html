@@ -9,7 +9,8 @@
   <script type="text/javascript" src="Goals.js"></script>
   <script type="text/javascript" src="Popularity.js"></script>
   <script type="text/javascript" src="Value.js"></script>
-  <script type="text/javascript" src="Cards.js"></script>
+  <script type="text/javascript" src="Top4Cards.js"></script>
+  <!-- <script type="text/javascript" src="Bottom4Cards.js"></script> -->
 
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Inder|Niramit&display=swap" rel="stylesheet">
@@ -42,8 +43,15 @@
         </div>
       </div> 
     </div>
-  <div class="cards-data-container" id="cards-data-container">
-    <div class="label">Total cards in a season between clubs</div>
-    <svg class="cards-data-area" id="cards-data-area" width=100% height=1000></svg>
+  <div class="cards-parent-div" id="cards-parent-div" width=client.width>
+    <div class="cards-section-label">Total cards in a season between clubs</div>
+    <div class="cards-data-container">
+      <div class="top-4-container" width=100%>
+        <svg class="top-4-cards-data-area" id="top-4-cards-data-area" width=100% height=1000></svg>
+      </div>
+      <div class="bottom-4-container">
+        <svg class="bottom-4-cards-data-area" id="bottom-4-cards-data-area" width=100% height=1000></svg>
+      </div>
+    </div>
   </div>
 </body>

@@ -117,17 +117,16 @@
   text-align: center;
 }
 
-.cards-data-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+.cards-parent-div {
+ 
 }
 
-.cards-data-area {
-  text-align: center;
+.cards-data-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
 }
+
 
 div.tooltip {	
   position: absolute;			
@@ -167,4 +166,21 @@ div.force-tooltip {
   z-index: 100000;
   font-size: 30px;
   font-weight: 700;
+}
+
+.cards-section-label {
+  margin: 10%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.top-4-container {
+ 
+}
+
+.bottom-4-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
