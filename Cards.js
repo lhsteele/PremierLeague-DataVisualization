@@ -58,7 +58,16 @@ function top4() {
 
   var arc = d3.arc()
     .innerRadius(200)
-    .outerRadius(210)
+    .outerRadius(225)
+
+  function fade(opacity) {
+    return function (g, i) {
+      svg.selectAll(".chord path")
+        .filter(function (d) { return d.source.index != i && d.target.index != i; })
+        .transition()
+        .style("opacity", opacity);
+    };
+  }
 
 
   svg.selectAll("path")
@@ -67,12 +76,14 @@ function top4() {
     .style("fill", function (d, i) { return top4Colors[i] })
     .attr("d", arc)
     .attr("class", "arc")
-    .attr("id", function (d, i) { return "group" + i; });
+    .attr("id", function (d, i) { return "group" + i; })
+    .on("mouseover", fade(.1))
+    .on("mouseout", fade(1))
 
   svg.selectAll("text")
     .data(chord.groups)
     .enter().append("text")
-    .attr("dx", 20)
+    .attr("dx", 30)
     .attr("dy", -10)
     .append("textPath")
     .attr("class", "label")
@@ -89,8 +100,8 @@ function top4() {
     .attr("d", d3.ribbon()
       .radius(200)
     )
-    .style("fill", "white")
-    .style("stroke", function (d, i) { return (top4Colors[d.source.index]) })
+    .style("fill", function (d, i) { return (top4Colors[d.source.index]) })
+    .style("opacity", 1)
 
 }
 
@@ -112,7 +123,16 @@ function bottom4() {
 
   var arc = d3.arc()
     .innerRadius(200)
-    .outerRadius(210)
+    .outerRadius(225)
+
+  function fade(opacity) {
+    return function (g, i) {
+      svg.selectAll(".chord path")
+        .filter(function (d) { return d.source.index != i && d.target.index != i; })
+        .transition()
+        .style("opacity", opacity);
+    };
+  }
 
 
   svg.selectAll("path")
@@ -121,12 +141,14 @@ function bottom4() {
     .style("fill", function (d, i) { return bottom4Colors[i] })
     .attr("d", arc)
     .attr("class", "arc")
-    .attr("id", function (d, i) { return "group" + i; });
+    .attr("id", function (d, i) { return "group" + i; })
+    .on("mouseover", fade(.1))
+    .on("mouseout", fade(1))
 
   svg.selectAll("text")
     .data(chord.groups)
     .enter().append("text")
-    .attr("dx", 20)
+    .attr("dx", 30)
     .attr("dy", -10)
     .append("textPath")
     .attr("class", "label")
@@ -143,8 +165,8 @@ function bottom4() {
     .attr("d", d3.ribbon()
       .radius(200)
     )
-    .style("fill", "white")
-    .style("stroke", function (d, i) { return (bottom4Colors[d.source.index]) })
+    .style("fill", function (d, i) { return (bottom4Colors[d.source.index]) })
+    .style("opacity", 1)
 }
 
 window.onload = function() {

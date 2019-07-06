@@ -180,9 +180,13 @@ div.force-tooltip {
 }
 
 .cards-section-sublabel {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   font-size: 15px;
   text-align: center;
+}
+
+.cards-section-sublabel2 {
+  margin-bottom: 10%;
 }
 
 .top-4-container {
