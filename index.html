@@ -10,6 +10,7 @@
   <script type="text/javascript" src="Popularity.js"></script>
   <script type="text/javascript" src="Value.js"></script>
   <script type="text/javascript" src="Cards.js"></script>
+  <script type="text/javascript" src="ClubCards.js"></script>
 
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Inder|Niramit&display=swap" rel="stylesheet">
@@ -54,7 +55,7 @@
   <div class="cards-parent-div" id="cards-parent-div" width=client.width>
     <div class="cards-section-label">Total cards throughout the season.</div>
     <div class="cards-section-sublabel">These charts show the total cards between two clubs.</div>
-    <div class="cards-section-sublabel">Hover over each segment to view just that club.</div>
+    <div class="cards-section-sublabel2">Hover over each segment to view just that club.</div>
     <div class="cards-data-container">
       <div class="top-4-container">
         <div class="top-bottom-label">Top 4 Clubs</div>
@@ -64,6 +65,9 @@
         <div class="top-bottom-label">Bottom 4 Clubs</div>
         <svg class="bottom-4-cards-data-area" id="bottom-4-cards-data-area" width=100% height=1000></svg>
       </div>
+    </div>
+    <div class="club-cards-container">
+      <svg class="club-cards-data-area" id="club-cards-data-area" width=100% height=1000></svg>
     </div>
   </div>
 </body>

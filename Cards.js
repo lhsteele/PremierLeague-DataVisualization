@@ -19,6 +19,14 @@ const top4Names = [
   "Tottenham"
 ]
 
+const top4Tooltips = [
+  [
+    "Man City / Liverpool : 5",
+    "Man City / Chelsea : 5", 
+    "Man City / Tottenham : 7"
+  ]
+]
+
 const bottom4CardsMatrix = [
   [0, 5, 11, 7],
   [5, 0, 6, 6],
@@ -69,6 +77,12 @@ function top4() {
     };
   }
 
+  var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .attr("class", "tooltip")
 
   svg.selectAll("path")
     .data(chord.groups)
@@ -79,6 +93,11 @@ function top4() {
     .attr("id", function (d, i) { return "group" + i; })
     .on("mouseover", fade(.1))
     .on("mouseout", fade(1))
+    .on("click", function(d, i) {
+      return tooltip
+        .style("visibility", "visible")
+        .html(top4Tooltips[i])
+    })
 
   svg.selectAll("text")
     .data(chord.groups)
