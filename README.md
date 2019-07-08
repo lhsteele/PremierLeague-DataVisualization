@@ -3,7 +3,9 @@
 
 The English Premier League is one of the most exciting football leagues with some of the best players in the world.
 This data visualization looks at the league as a whole, total goals scored, as well as number of cards recieved throughout the 2018-19 season. 
+
 Seeing as the top and bottom of the league are such highly contested positions (the top 4 get to participate in the Champions League the following year, and the bottom 3 are relegated to the division below), we also take a closer look at the number of cards received in matches between these teams. Is there a correlation between team standing and how many fouls there are in a match? 
+
 Lastly, we have a look at some individual player stats, taking the top 25 goal scorers in the league. Do their values reflect goals scored? Does it impact how popular they are as fantasy football picks? 
 
 
