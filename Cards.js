@@ -93,11 +93,12 @@ function top4() {
     .attr("id", function (d, i) { return "group" + i; })
     .on("mouseover", fade(.1))
     .on("mouseout", fade(1))
-    .on("click", function(d, i) {
-      return tooltip
-        .style("visibility", "visible")
-        .html(top4Tooltips[i])
-    })
+    // .on("click", function(d, i) {
+    //   console.log("clicked")
+    //   tooltip
+    //     .style("visibility", "visible")
+    //     .html("clicked")
+    // })
 
   svg.selectAll("text")
     .data(chord.groups)
