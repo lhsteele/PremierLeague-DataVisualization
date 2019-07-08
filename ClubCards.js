@@ -9,24 +9,32 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
     .append("g")
     .attr("transform", "translate(0,0)");
 
-  var radiusScale = d3.scaleSqrt().domain([40, 81]).range([5, 50])
+  var radiusScale = d3.scaleSqrt().domain([40, 81]).range([25, 50])
 
-  var forceXSeparate = d3.forceX(function (d) {
-    if (d.Top_4 === "Yes" || d.Bottom_4 === "Yes") {
+  var forceXCombine = d3.forceX(width / 2).strength(0.05)
+
+  var forceXTop = d3.forceX(function (d) {
+    if (d.Top_4 === "Yes") {
       return 250
     } else {
       return 750
     }
-  }).strength(0.05)
+  }).strength(0.1)
 
-  var forceXCombine = d3.forceX(width / 2).strength(0.05)
+  var forceXBottom = d3.forceX(function (d) {
+    if (d.Bottom_4 === "Yes") {
+      return 250
+    } else {
+      return 750
+    }
+  }).strength(0.1)
 
   var forceCollide = d3.forceCollide(function (d) {
-    return radiusScale(d.Cards) + 5
+    return radiusScale(d.Cards) + 7
   })
 
   var simulation = d3.forceSimulation()
-    .force("x", forceX)
+    .force("x", forceXCombine)
     .force("y", d3.forceY(height / 2).strength(0.05))
     .force("collide", forceCollide)
 
@@ -108,9 +116,16 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
       return tooltip.style("visibility", "hidden")
     })
 
-  d3.select("#top-bottom-clubs").on("click", function (d) {
+  d3.select("#top-clubs").on("click", function (d) {
     simulation
-      .force("x", forceXSeparate)
+      .force("x", forceXTop)
+      .alphaTarget(0.5)
+      .restart()
+  })
+
+  d3.select("#bottom-clubs").on("click", function (d) {
+    simulation
+      .force("x", forceXBottom)
       .alphaTarget(0.5)
       .restart()
   })
