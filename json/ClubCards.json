@@ -1,122 +1,122 @@
 [
  {
-   "Club": "Arsenal",
-   "Cards": 74,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Bournemouth",
-   "Cards": 61,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Brighton",
-   "Cards": 64,
-   "Top 4": "No",
-   "Bottom 4": "Yes"
- },
- {
-   "Club": "Burnley",
-   "Cards": 76,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Cardiff",
-   "Cards": 67,
-   "Top 4": "No",
-   "Bottom 4": "Yes"
- },
- {
-   "Club": "Chelsea",
-   "Cards": 49,
-   "Top 4": "Yes",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Crystal Palace",
-   "Cards": 60,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Everton",
-   "Cards": 59,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Fulham",
-   "Cards": 70,
-   "Top 4": "No",
-   "Bottom 4": "Yes"
- },
- {
-   "Club": "Huddersfield",
-   "Cards": 59,
-   "Top 4": "No",
-   "Bottom 4": "Yes"
- },
- {
-   "Club": "Leicester",
-   "Cards": 62,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Liverpool",
-   "Cards": 40,
-   "Top 4": "Yes",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Man City",
-   "Cards": 45,
-   "Top 4": "Yes",
-   "Bottom 4": "No"
+   "Club": "Watford",
+   "Cards": 81,
+   "Top_4": "No",
+   "Bottom_4": "No"
  },
  {
    "Club": "Man United",
    "Cards": 77,
-   "Top 4": "No",
-   "Bottom 4": "No"
+   "Top_4": "No",
+   "Bottom_4": "No"
  },
  {
-   "Club": "Newcastle",
-   "Cards": 59,
-   "Top 4": "No",
-   "Bottom 4": "No"
+   "Club": "Burnley",
+   "Cards": 76,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Arsenal",
+   "Cards": 74,
+   "Top_4": "No",
+   "Bottom_4": "No"
  },
  {
    "Club": "Southampton",
    "Cards": 74,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Tottenham",
-   "Cards": 59,
-   "Top 4": "Yes",
-   "Bottom 4": "No"
- },
- {
-   "Club": "Watford",
-   "Cards": 81,
-   "Top 4": "No",
-   "Bottom 4": "No"
- },
- {
-   "Club": "West Ham",
-   "Cards": 60,
-   "Top 4": "No",
-   "Bottom 4": "No"
+   "Top_4": "No",
+   "Bottom_4": "No"
  },
  {
    "Club": "Wolves",
    "Cards": 73,
-   "Top 4": "No",
-   "Bottom 4": "No"
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Fulham",
+   "Cards": 70,
+   "Top_4": "No",
+   "Bottom_4": "Yes"
+ },
+ {
+   "Club": "Cardiff",
+   "Cards": 67,
+   "Top_4": "No",
+   "Bottom_4": "Yes"
+ },
+ {
+   "Club": "Brighton",
+   "Cards": 64,
+   "Top_4": "No",
+   "Bottom_4": "Yes"
+ },
+ {
+   "Club": "Leicester",
+   "Cards": 62,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Bournemouth",
+   "Cards": 61,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Crystal Palace",
+   "Cards": 60,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "West Ham",
+   "Cards": 60,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Everton",
+   "Cards": 59,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Huddersfield",
+   "Cards": 59,
+   "Top_4": "No",
+   "Bottom_4": "Yes"
+ },
+ {
+   "Club": "Newcastle",
+   "Cards": 59,
+   "Top_4": "No",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Tottenham",
+   "Cards": 59,
+   "Top_4": "Yes",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Chelsea",
+   "Cards": 49,
+   "Top_4": "Yes",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Man City",
+   "Cards": 45,
+   "Top_4": "Yes",
+   "Bottom_4": "No"
+ },
+ {
+   "Club": "Liverpool",
+   "Cards": 40,
+   "Top_4": "Yes",
+   "Bottom_4": "No"
  }
 ]

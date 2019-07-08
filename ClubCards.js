@@ -2,21 +2,27 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
   var width = 1000,
     height = 1000;
 
-  var svg = d3.select("#league-data-area")
+  var svg = d3.select("#club-cards-data-area")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
     .append("g")
     .attr("transform", "translate(0,0)");
 
-  var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 25])
+  var radiusScale = d3.scaleSqrt().domain([40, 81]).range([5, 50])
 
-  var forceX = d3.forceX(function (d) {
-    return width / 2
+  var forceXSeparate = d3.forceX(function (d) {
+    if (d.Top_4 === "Yes" || d.Bottom_4 === "Yes") {
+      return 250
+    } else {
+      return 750
+    }
   }).strength(0.05)
 
+  var forceXCombine = d3.forceX(width / 2).strength(0.05)
+
   var forceCollide = d3.forceCollide(function (d) {
-    return radiusScale(d.GPM) + 3
+    return radiusScale(d.Cards) + 5
   })
 
   var simulation = d3.forceSimulation()
@@ -38,7 +44,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
     .style("position", "absolute")
     .style("z-index", "10")
     .style("visibility", "hidden")
-    .attr("class", "force-tooltip")
+    .attr("class", "card-force-tooltip")
 
 
   var circles = svg.selectAll("clubs")
@@ -93,7 +99,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
     .on("mouseover", function (d) {
       return tooltip
         .style("visibility", "visible")
-        .html(d.WinClub + " " + d.WinningGoals + " : " + d.LossClub + " " + d.LosingGoals)
+        .html(d.Club + ":" + " " + d.Cards + " " + "cards")
     })
     .on("mousemove", function () {
       return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px")
@@ -102,6 +108,19 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
       return tooltip.style("visibility", "hidden")
     })
 
+  d3.select("#top-bottom-clubs").on("click", function (d) {
+    simulation
+      .force("x", forceXSeparate)
+      .alphaTarget(0.5)
+      .restart()
+  })
+
+  d3.select("#all-clubs").on("click", function (d) {
+    simulation
+      .force("x", forceXCombine)
+      .alphaTarget(0.5)
+      .restart()
+  }) 
 })
 
 
