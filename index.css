@@ -12,7 +12,7 @@
 .title-group {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  text-align: center;
 }
 
 .title {
@@ -37,13 +37,14 @@
 
 .league-text {
   margin: 10px 0;
+  text-align: center;
 }
 
 .league-data-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 20%;
+  margin: 0 24%;
   text-align: center;
   overflow: overlay;
 }
@@ -124,12 +125,14 @@
 .cards-parent-div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .cards-data-container {
   display: flex;
   justify-content: space-around;
-  margin: 0 10%;
+  margin: 10%;
 }
 
 
@@ -221,6 +224,31 @@ div.card-force-tooltip {
 
 .top-bottom-label {
   margin-bottom: 50px;
+}
+
+.club-card-button-container {
+  display: flex;
+  /* flex-direction: column; */
+  padding-top: 35px;
+  margin: auto;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.club-card-button {
+  border: none;
+  height: 30px;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 10px;
+}
+
+.club-cards-data-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 23%;
+  text-align: center;
+  overflow: overlay;
 }
 
 

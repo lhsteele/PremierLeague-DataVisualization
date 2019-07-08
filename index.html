@@ -53,23 +53,30 @@
       </div> 
     </div>
   <div class="cards-parent-div" id="cards-parent-div" width=client.width>
-    <div class="cards-section-label">Total cards throughout the season.</div>
-    <div class="cards-section-sublabel">These charts show the total cards between two clubs.</div>
-    <div class="cards-section-sublabel2">Hover over each segment to view just that club.</div>
+    <div class="cards-section-label">Total cards (red and yellow) throughout the season.</div>
+    <div>These charts show the total cards between two clubs,</div>
+    <div>separated into meetings between the top 4 and bottom 4 clubs.</div>
+    </br>
+    <div>Hover over each segment to view just that club.</div>
     <div class="cards-data-container">
       <div class="top-4-container">
         <div class="top-bottom-label">Top 4 Clubs</div>
-        <svg class="top-4-cards-data-area" id="top-4-cards-data-area" width=100% height=1000></svg>
+        <svg class="top-4-cards-data-area" id="top-4-cards-data-area" width=100% height=500></svg>
       </div>
       <div class="bottom-4-container">
         <div class="top-bottom-label">Bottom 4 Clubs</div>
-        <svg class="bottom-4-cards-data-area" id="bottom-4-cards-data-area" width=100% height=1000></svg>
+        <svg class="bottom-4-cards-data-area" id="bottom-4-cards-data-area" width=100% height=500></svg>
       </div>
     </div>
     <div class="club-cards-container">
-      <button class="club-card-button" id="top-clubs">Top 4 Clubs</button>
-      <button class="club-card-button" id="bottom-clubs">Bottom 4 Clubs</button>
-      <button class="club-card-button" id="all-clubs">All Clubs</button>
+      <div>This chart shows how many cards each club received.</div>
+      <div>Filter by top 4 and bottom 4 to see if club standing has</div>
+      <div>a correlation with how many cards a club receives.</div>
+      <div class="club-card-button-container">
+        <button class="club-card-button" id="top-clubs">Top 4 Clubs</button>
+        <button class="club-card-button" id="bottom-clubs">Bottom 4 Clubs</button>
+        <button class="club-card-button" id="all-clubs">All Clubs</button>
+      </div>
       <svg class="club-cards-data-area" id="club-cards-data-area" width=100% height=1000></svg>
     </div>
   </div>
