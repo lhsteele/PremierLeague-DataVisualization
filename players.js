@@ -21,7 +21,7 @@ function generateChart() {
 
     svg
       .selectAll("circle")
-      .data(datam)
+      .data(datum)
       .enter()
       .append("circle")
       .attr("r", function(d) { return d.Goals })

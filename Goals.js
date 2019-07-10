@@ -4,6 +4,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
 
   var svg = d3.select("#goals-data-area")
     .append("svg")
+    // .attr("viewBox", `0 0 500 500`)
     .attr("width", width)
     .attr("height", height)
     .append("g")

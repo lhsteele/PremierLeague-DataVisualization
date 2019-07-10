@@ -7,15 +7,16 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(0,0)");
+    .attr("transform", "translate(70, 70)")
+    
 
   var radiusScale = d3.scaleSqrt().domain([0, 8]).range([5, 25])
 
-  var forceX = d3.forceX(function(d) {
+  var forceX = d3.forceX(function (d) {
     return width / 2
   }).strength(0.05)
 
-  var forceCollide = d3.forceCollide(function(d) {
+  var forceCollide = d3.forceCollide(function (d) {
     return radiusScale(d.GPM) + 3
   })
 
@@ -102,7 +103,27 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/season_
       return tooltip.style("visibility", "hidden")
     })
 
+  function makeResponsive(svg) {
+    const container = d3.select(svg.node().parentNode),
+      width = parseInt(svg.style("width"), 1000),
+      height = parseInt(svg.style("height"), 1000),
+      aspect = width / height;
+
+    svg.attr("viewBox", `0 0 ${width} ${height}`)
+      .attr("preserveAspectRatio", "xMinYMid")
+      .call(resize);
+
+    d3.select(window).on("resize." + container.attr("id"), resize);
+
+    function resize() {
+      const w = parseInt(container.style("width"));
+      svg.attr("width", w);
+      svg.attr("height", Math.round(w / aspect))
+    }
+  }
+  
 })
+
 
 
 
