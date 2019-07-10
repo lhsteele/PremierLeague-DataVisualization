@@ -77,4 +77,5 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
       return tooltip.style("visibility", "hidden")
     })
 
+    
 })

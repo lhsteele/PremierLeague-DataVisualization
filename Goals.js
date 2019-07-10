@@ -1,10 +1,9 @@
 d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19_player_data.json").then(function (data) {
-  var width = 500,
-  height = 500
+  var width = 300,
+  height = 300
 
   var svg = d3.select("#goals-data-area")
     .append("svg")
-    // .attr("viewBox", `0 0 500 500`)
     .attr("width", width)
     .attr("height", height)
     .append("g")
@@ -67,5 +66,6 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .on("mouseout", function () {
       return tooltip.style("visibility", "hidden")
     })
+    
     
 })

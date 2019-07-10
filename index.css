@@ -1,6 +1,7 @@
 * {
   font-family: Inder;
   color: #525252;
+  overflow: visible;
 }
 
 .main {
@@ -52,6 +53,7 @@
 .player-parent-div {
   display: flex;
   flex-direction: column;
+  
 }
 
 .player-data-area {
@@ -193,7 +195,7 @@ div.card-force-tooltip {
 }
 
 .cards-section-label {
-  margin: 20px 0;
+  margin: 10% 0;
   font-size: 25px;
   text-align: center;
 }
@@ -250,5 +252,4 @@ div.card-force-tooltip {
   text-align: center;
   overflow: overlay;
 }
-
 

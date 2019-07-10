@@ -1,6 +1,7 @@
 d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19_player_data.json").then(function (data) {
-  var width = 500,
-    height = 500
+  var width = 300,
+    height = 300
+    // radius = Math.min(width, height)
     radius = Math.min(width, height) / 2
 
   var svg = d3.select("#popularity-data-area")
@@ -20,7 +21,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .value(function(d) { return d.Current_fpl_sel })(data)
 
   var segments = d3.arc() 
-    .outerRadius(radius - 130)
+    .outerRadius(radius - 25)
     .innerRadius(50)
     .padAngle(.05)
     .padRadius(50)
@@ -74,4 +75,6 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19
     .on("mouseout", function() {
       return tooltip.style("visibility", "hidden")
     })
+
+    
 })
