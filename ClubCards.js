@@ -7,7 +7,7 @@ d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/ClubCar
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(0,0)");
+    .attr("transform", "translate(0, 0)");
 
   var radiusScale = d3.scaleSqrt().domain([40, 81]).range([25, 50])
 
