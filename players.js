@@ -5,19 +5,12 @@ function generateChart() {
 
   function chart(container) {
     g = container;
-    // var svgContainer = document.getElementById("#player-parent-div")
-  
-    // var svg = d3.select("#player-data-area")
-    //   .append("svg")
-    //   .attr("width", 300)
-    //   .attr("height", 300)
 
     container.select("svg").remove();
 
     var svg = container.append("svg")
       .attr("width", width)
       .attr("height", height)
-    console.log(datum)
 
     svg
       .selectAll("circle")

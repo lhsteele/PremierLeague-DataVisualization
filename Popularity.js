@@ -1,7 +1,6 @@
 d3.json("https://lhsteele.github.io/PremierLeague-DataVisualization/json/2018_19_player_data.json").then(function (data) {
   var width = 300,
     height = 300
-    // radius = Math.min(width, height)
     radius = Math.min(width, height) / 2
 
   var svg = d3.select("#popularity-data-area")
