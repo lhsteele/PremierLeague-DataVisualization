@@ -21,7 +21,9 @@ Lastly, I had a look at some individual player stats, taking the top 25 goal sco
 
 * Data visualization will be rendered using D3 and Javascript.
 
-
+<img src="assets/EPL_dataVis2.gif"/>
+<img src="assets/EPL_dataVis3.gif"/>
+<img src="assets/EPL_dataVis4.gif"/>
 
 
 ## Project Schedule
