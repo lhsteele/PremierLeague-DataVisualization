@@ -19,15 +19,30 @@
 <body class="main">
   <div class="title-group">
     <div class="title">English Premier League</div>
+    <div class="sub-title">
+      The Premier League is the top level of the English football (soccer) system in England, made up of 20 clubs.
+    </br>
+      Each club plays each other twice, at home and away, totalling 38 matches throughout the season.
+    </br>
+      At the end of the season, the club with the most points wins the Premier League title.
+    </br>
+      The top 4 clubs win a place to compete in the <a href="https://www.uefa.com/uefachampionsleague/" target="_blank">UEFA Champions League</a>,
+      and the bottom 3 clubs are relegated to the First Division.
+    </div>
+    <ul class="table-of-contents">
+      Jump to:
+      <li><a href="#league-parent-div">Goals scored in every match.</a></li>
+      <li><a href="#player-parent-div">Top 25 Goal Scorers</a></li>
+      <li><a href="#cards-parent-div">Total cards in matches between the clubs at the top and bottom of the league.</a></li>
+      <li><a href="#club-cards-container">Total cards received by each club.</a></li>
+    </ul>
   </div>
   <div class="league-parent-div" id="league-parent-div" width=client.width height=1000>
     <div class="league-text">
       <div class="title2">Every match in the 2018/2019 premier league season.</div>
-      </br>
       <div>Circle size = how many goals scored</div>
       <div>Circle color = winning team</div>
-      <div>(or in the case of a draw, the home team)</div>
-      </br>  
+      <div>(or in the case of a draw, the home team)</div> 
       <div>Hover over a circle to see the match score.</div>
     </div>
     <div >
@@ -76,7 +91,7 @@
           viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet"></svg>
       </div>
     </div>
-    <div class="club-cards-container">
+    <div class="club-cards-container" id="club-cards-container">
       <div>This chart shows how many cards each club received.</div>
       <div>Filter by top 4 and bottom 4 to see if club standing has</div>
       <div>a correlation with how many cards a club receives.</div>

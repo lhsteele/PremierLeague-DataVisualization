@@ -13,15 +13,31 @@
 .title-group {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .title {
   font-size: 30px;
+  margin: 10px 5px;
+}
+
+.sub-title {
+  font-size: 14px;
+  margin: 0 5px 5px 5px;
+}
+
+.table-of-contents {
+  margin-bottom: 5%;
+  list-style: none;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 0;
+  font-size: 12px;
 }
 
 .title2 {
-  font-size: 20px;
+  font-size: 25px;
+  margin: 2% 0;
 }
 
 .player-ul {
@@ -37,7 +53,7 @@
 }
 
 .league-text {
-  margin: 10px 0;
+  /* margin: 10px 0; */
   text-align: center;
 }
 
@@ -70,13 +86,14 @@
 }
 
 .player-parent-div {
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
-  height: 800px;
+  height: 600px;
 }
 
 .players-chart-title {
-  margin: 10%;
+  margin: 2% 0;
   font-size: 25px;
   text-align: center;
 }
@@ -193,7 +210,7 @@ div.card-force-tooltip {
 }
 
 .cards-section-label {
-  margin: 10% 0;
+  margin: 2% 0;
   font-size: 25px;
   text-align: center;
 }
