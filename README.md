@@ -12,13 +12,6 @@ Lastly, I had a look at some individual player stats, taking the top 25 goal sco
 <img src="assets/EPL_dataVis3.gif"/>
 
 
-## Functionality and MVP Features
-
-* Show an overall visualization of all clubs in the premier league.
-* Show stats through a variety of different charts and graphs.
-* Hovering over a team or element of the chart will give some detail into the stat.
-* The final graph will also allow some filtering to see how the top 4 and bottom 4 clubs perform in relation to the rest of the league.
-
 
 ## Architecture and Technologies
 
@@ -77,22 +70,5 @@ svg
 <img src="assets/EPL_dataVis2.gif"/>
 
 
-
-
-## Project Schedule
-
-### Day 1 & 2
-
-* Download dataset
-* Get acquainted with D3
-
-### Day 3 & 4
- 
-* Get player data to render on page
-* Figure out best way to split data and extract what I need
-
-### Day 5 
-
-* Styling
 
 
