@@ -18,16 +18,19 @@
 
 <body class="main">
   <div class="title-group">
-    <div class="title">English Premier League</div>
-    <div class="sub-title">
-      The Premier League is the top level of the English football (soccer) system in England, made up of 20 clubs.
-    </br>
-      Each club plays each other twice, at home and away, totalling 38 matches throughout the season.
-    </br>
-      At the end of the season, the club with the most points wins the Premier League title.
-    </br>
-      The top 4 clubs win a place to compete in the <a href="https://www.uefa.com/uefachampionsleague/" target="_blank">UEFA Champions League</a>,
-      and the bottom 3 clubs are relegated to the First Division.
+    <div class="img-title-group">
+      <img src="assets/EPLLogo.png"/>
+      <div class="sub-title">
+        <div class="title">English Premier League</div>
+        The Premier League is the top level of the English football (soccer) system in England, made up of 20 clubs.
+      </br>
+        Each club plays each other twice, at home and away, totalling 38 matches throughout the season.
+      </br>
+        At the end of the season, the club with the most points wins the Premier League title.
+      </br>
+        The top 4 clubs win a place to compete in the UEFA Champions League,
+        and the bottom 3 clubs are relegated to the First Division.
+      </div>
     </div>
     <ul class="table-of-contents">
       Jump to:
@@ -92,15 +95,17 @@
       </div>
     </div>
     <div class="club-cards-container" id="club-cards-container">
-      <div>This chart shows how many cards each club received.</div>
-      <div>Filter by top 4 and bottom 4 to see if club standing has</div>
-      <div>a correlation with how many cards a club receives.</div>
+      <div class="club-cards-label">
+        <div>This chart shows how many cards each club received.</div>
+        <div>Filter by top 4 and bottom 4 to see if club standing has</div>
+        <div>a correlation with how many cards a club receives.</div>
+      </div>
       <div class="club-card-button-container">
         <button class="club-card-button" id="top-clubs">Top 4 Clubs</button>
         <button class="club-card-button" id="bottom-clubs">Bottom 4 Clubs</button>
         <button class="club-card-button" id="all-clubs">All Clubs</button>
       </div>
-      <svg class="club-cards-data-area" id="club-cards-data-area" width=100% height=1000
+      <svg class="club-cards-data-area" id="club-cards-data-area" width=100% height=800
         viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet"></svg>
     </div>
   </div>
